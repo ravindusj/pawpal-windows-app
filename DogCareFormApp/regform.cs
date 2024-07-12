@@ -37,5 +37,20 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void lblregsiterform_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblownersfullname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

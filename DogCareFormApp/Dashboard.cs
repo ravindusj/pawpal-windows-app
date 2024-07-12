@@ -81,7 +81,8 @@ namespace DogCareFormApp
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            Landing f1 = new Landing();
+            f1.Show();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -117,6 +118,16 @@ namespace DogCareFormApp
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

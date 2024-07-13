@@ -209,9 +209,9 @@
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(498, 95);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(160, 26);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(166, 26);
             this.guna2HtmlLabel7.TabIndex = 21;
-            this.guna2HtmlLabel7.Text = "Pet\'s Information ";
+            this.guna2HtmlLabel7.Text = "Dog\'s Information ";
             this.guna2HtmlLabel7.Click += new System.EventHandler(this.guna2HtmlLabel7_Click);
             // 
             // guna2HtmlLabel1
@@ -220,9 +220,9 @@
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(498, 180);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(81, 20);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(87, 20);
             this.guna2HtmlLabel1.TabIndex = 22;
-            this.guna2HtmlLabel1.Text = "Pet Name : ";
+            this.guna2HtmlLabel1.Text = "Dog Name : ";
             // 
             // guna2HtmlLabel8
             // 

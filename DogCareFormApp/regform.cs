@@ -6,14 +6,15 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Configuration;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace DogCareFormApp
 {
     public partial class Regform : Form
-    {   
-        
+    {
+
         public Regform()
         {
             InitializeComponent();
@@ -31,10 +32,8 @@ namespace DogCareFormApp
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
-            
-        }
 
-       
+        }
 
         private void lblregsiterform_Click(object sender, EventArgs e)
         {
@@ -50,9 +49,23 @@ namespace DogCareFormApp
         {
 
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
+            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["DogRegForm"].ConnectionString;
 
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+                    MessageBox.Show("Database connected successfully!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Database connection failed: " + ex.Message);
+                }
+            }
         }
     }
 }

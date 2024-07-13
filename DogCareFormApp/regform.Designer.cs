@@ -48,6 +48,8 @@
             this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // lblregsiterform
@@ -67,9 +69,9 @@
             this.lblownersfullname.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblownersfullname.Location = new System.Drawing.Point(47, 180);
             this.lblownersfullname.Name = "lblownersfullname";
-            this.lblownersfullname.Size = new System.Drawing.Size(133, 20);
+            this.lblownersfullname.Size = new System.Drawing.Size(75, 20);
             this.lblownersfullname.TabIndex = 2;
-            this.lblownersfullname.Text = "Owner\'s Full Name ";
+            this.lblownersfullname.Text = "Owner ID :";
             this.lblownersfullname.Click += new System.EventHandler(this.lblownersfullname_Click);
             // 
             // lblregistrationform
@@ -78,9 +80,9 @@
             this.lblregistrationform.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblregistrationform.Location = new System.Drawing.Point(47, 236);
             this.lblregistrationform.Name = "lblregistrationform";
-            this.lblregistrationform.Size = new System.Drawing.Size(116, 20);
+            this.lblregistrationform.Size = new System.Drawing.Size(102, 20);
             this.lblregistrationform.TabIndex = 3;
-            this.lblregistrationform.Text = "Owner\'s E-mail :";
+            this.lblregistrationform.Text = "Owner Name      :";
             // 
             // lblpn
             // 
@@ -88,19 +90,19 @@
             this.lblpn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpn.Location = new System.Drawing.Point(47, 292);
             this.lblpn.Name = "lblpn";
-            this.lblpn.Size = new System.Drawing.Size(172, 20);
+            this.lblpn.Size = new System.Drawing.Size(110, 20);
             this.lblpn.TabIndex = 4;
-            this.lblpn.Text = "Owner\'s Phone number :";
+            this.lblpn.Text = "Owner Contact:";
             // 
             // lbladdress
             // 
             this.lbladdress.BackColor = System.Drawing.Color.Transparent;
             this.lbladdress.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbladdress.Location = new System.Drawing.Point(47, 351);
+            this.lbladdress.Location = new System.Drawing.Point(47, 415);
             this.lbladdress.Name = "lbladdress";
-            this.lbladdress.Size = new System.Drawing.Size(130, 20);
+            this.lbladdress.Size = new System.Drawing.Size(96, 20);
             this.lbladdress.TabIndex = 5;
-            this.lbladdress.Text = "Owner\'s Address :";
+            this.lbladdress.Text = "Owner Email:";
             // 
             // txtOPN
             // 
@@ -328,11 +330,42 @@
             this.guna2TextBox10.Size = new System.Drawing.Size(206, 30);
             this.guna2TextBox10.TabIndex = 29;
             // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Location = new System.Drawing.Point(245, 399);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(206, 36);
+            this.guna2TextBox1.TabIndex = 31;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(47, 351);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(115, 20);
+            this.guna2HtmlLabel3.TabIndex = 30;
+            this.guna2HtmlLabel3.Text = "Owner Address:";
+            // 
             // Regform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(980, 870);
+            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2TextBox10);
             this.Controls.Add(this.guna2TextBox9);
             this.Controls.Add(this.guna2TextBox8);
@@ -383,5 +416,7 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
     }
 }

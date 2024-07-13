@@ -12,7 +12,8 @@ using System.Data.SqlClient;
 namespace DogCareFormApp
 {
     public partial class Regform : Form
-    {
+    {   
+        
         public Regform()
         {
             InitializeComponent();
@@ -33,10 +34,7 @@ namespace DogCareFormApp
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void lblregsiterform_Click(object sender, EventArgs e)
         {
@@ -49,6 +47,10 @@ namespace DogCareFormApp
         }
 
         private void guna2HtmlLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

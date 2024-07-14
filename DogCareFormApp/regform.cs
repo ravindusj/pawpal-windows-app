@@ -148,5 +148,10 @@ namespace DogCareFormApp
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

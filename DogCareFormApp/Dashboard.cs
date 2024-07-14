@@ -13,7 +13,7 @@ namespace DogCareFormApp
     public partial class Dashboard : Form
     {
 
-        private string welcomeMessage;
+       
         public Dashboard()
         {
             InitializeComponent();

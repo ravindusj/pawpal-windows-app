@@ -10,6 +10,8 @@ namespace DogCareFormApp
 {
     public partial class Regform : Form
     {
+        private static string savedFilePath;
+
         public Regform()
         {
             InitializeComponent();
@@ -100,15 +102,30 @@ namespace DogCareFormApp
                         command.ExecuteNonQuery();
                     }
 
-                    // Define the path to save the file (Desktop)
-                    string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                    string filePath = Path.Combine(desktopPath, "OwnerAndDogInformation.xlsx");
-
-                    IXLWorksheet worksheet;
-
-                    using (var workbook = File.Exists(filePath) ? new XLWorkbook(filePath) : new XLWorkbook())
+                    if (string.IsNullOrEmpty(savedFilePath))
                     {
-                        worksheet = workbook.Worksheets.FirstOrDefault() ?? workbook.Worksheets.Add("Owner and Dog Information");
+                        // Show SaveFileDialog to let user choose save location
+                        using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                        {
+                            saveFileDialog.Filter = "Excel Workbook|*.xlsx";
+                            saveFileDialog.Title = "Save Owner and Dog Information";
+                            saveFileDialog.FileName = "OwnerAndDogInformation.xlsx";
+
+                            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                            {
+                                savedFilePath = saveFileDialog.FileName;
+                            }
+                            else
+                            {
+                                MessageBox.Show("Save operation cancelled.");
+                                return;
+                            }
+                        }
+                    }
+
+                    using (var workbook = File.Exists(savedFilePath) ? new XLWorkbook(savedFilePath) : new XLWorkbook())
+                    {
+                        var worksheet = workbook.Worksheets.FirstOrDefault() ?? workbook.Worksheets.Add("Owner and Dog Information");
 
                         // If the worksheet is empty, write the headers
                         if (worksheet.LastRowUsed() == null)
@@ -137,10 +154,10 @@ namespace DogCareFormApp
                         worksheet.Cell(newRow, 8).Value = dogage;
                         worksheet.Cell(newRow, 9).Value = doggender;
 
-                        workbook.SaveAs(filePath);
+                        workbook.SaveAs(savedFilePath);
                     }
 
-                    MessageBox.Show("Data inserted and Excel file generated successfully. File saved to: " + filePath);
+                    MessageBox.Show("Data inserted and Excel file updated successfully. File saved to: " + savedFilePath);
                 }
             }
             catch (Exception ex)

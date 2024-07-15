@@ -124,6 +124,9 @@
   <data name="dog (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dog (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bone (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bone (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="target-audience" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\target-audience.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,6 +154,9 @@
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="booking1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\booking1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="play-with-pet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play-with-pet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,7 +166,7 @@
   <data name="sign-out-alt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sign-out-alt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bone (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bone (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="booking2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\booking2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

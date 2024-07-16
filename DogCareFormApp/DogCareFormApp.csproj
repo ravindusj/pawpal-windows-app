@@ -295,6 +295,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\booking2.png" />
+    <None Include="Resources\booking1.png" />
     <None Include="DogRegForm.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

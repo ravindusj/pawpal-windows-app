@@ -29,21 +29,14 @@
         private void InitializeComponent()
         {
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.logoutbutton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.bookinbutton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.dashbutton1 = new Guna.UI2.WinForms.Guna2Button();
+            this.inventorybutton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -63,14 +56,7 @@
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
@@ -89,20 +75,14 @@
             // 
             this.guna2GradientPanel1.AllowDrop = true;
             this.guna2GradientPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox3);
+            this.guna2GradientPanel1.Controls.Add(this.logoutbutton);
+            this.guna2GradientPanel1.Controls.Add(this.guna2Button4);
+            this.guna2GradientPanel1.Controls.Add(this.bookinbutton);
+            this.guna2GradientPanel1.Controls.Add(this.guna2Button3);
+            this.guna2GradientPanel1.Controls.Add(this.dashbutton1);
+            this.guna2GradientPanel1.Controls.Add(this.inventorybutton);
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox14);
-            this.guna2GradientPanel1.Controls.Add(this.label6);
-            this.guna2GradientPanel1.Controls.Add(this.label5);
-            this.guna2GradientPanel1.Controls.Add(this.label4);
-            this.guna2GradientPanel1.Controls.Add(this.label3);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox6);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox5);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox4);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox2);
-            this.guna2GradientPanel1.Controls.Add(this.label1);
-            this.guna2GradientPanel1.Controls.Add(this.panel1);
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
@@ -117,22 +97,163 @@
             this.guna2GradientPanel1.TabIndex = 2;
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint_1);
             // 
-            // guna2PictureBox3
+            // logoutbutton
             // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.Image = global::DogCareFormApp.Properties.Resources.dashboard_panel;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(10, 168);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox3.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(30, 40);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 7;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
+            this.logoutbutton.Animated = true;
+            this.logoutbutton.BackColor = System.Drawing.Color.Transparent;
+            this.logoutbutton.BorderColor = System.Drawing.Color.Transparent;
+            this.logoutbutton.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.logoutbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.logoutbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.logoutbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.logoutbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.logoutbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.logoutbutton.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.logoutbutton.Font = new System.Drawing.Font("Cascadia Code SemiBold", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.logoutbutton.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
+            this.logoutbutton.Image = global::DogCareFormApp.Properties.Resources.sign_out_alt;
+            this.logoutbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.logoutbutton.ImageSize = new System.Drawing.Size(25, 25);
+            this.logoutbutton.Location = new System.Drawing.Point(-1, 688);
+            this.logoutbutton.Name = "logoutbutton";
+            this.logoutbutton.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
+            this.logoutbutton.PressedColor = System.Drawing.Color.MintCream;
+            this.logoutbutton.Size = new System.Drawing.Size(192, 57);
+            this.logoutbutton.TabIndex = 31;
+            this.logoutbutton.Text = "Logout";
+            this.logoutbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.logoutbutton.UseTransparentBackground = true;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.Animated = true;
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Button4.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
+            this.guna2Button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button4.Image = global::DogCareFormApp.Properties.Resources.settings;
+            this.guna2Button4.ImageOffset = new System.Drawing.Point(-3, 1);
+            this.guna2Button4.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2Button4.Location = new System.Drawing.Point(-1, 554);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.PressedColor = System.Drawing.Color.DarkOrange;
+            this.guna2Button4.Size = new System.Drawing.Size(193, 57);
+            this.guna2Button4.TabIndex = 30;
+            this.guna2Button4.Text = " Settings";
+            this.guna2Button4.UseTransparentBackground = true;
+            // 
+            // bookinbutton
+            // 
+            this.bookinbutton.Animated = true;
+            this.bookinbutton.BackColor = System.Drawing.Color.Transparent;
+            this.bookinbutton.BorderColor = System.Drawing.Color.Transparent;
+            this.bookinbutton.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.bookinbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookinbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.bookinbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.bookinbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.bookinbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.bookinbutton.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.bookinbutton.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
+            this.bookinbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bookinbutton.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.bookinbutton.Image = global::DogCareFormApp.Properties.Resources.booking2;
+            this.bookinbutton.ImageOffset = new System.Drawing.Point(-3, 1);
+            this.bookinbutton.ImageSize = new System.Drawing.Size(25, 25);
+            this.bookinbutton.Location = new System.Drawing.Point(-1, 284);
+            this.bookinbutton.Name = "bookinbutton";
+            this.bookinbutton.PressedColor = System.Drawing.Color.DarkOrange;
+            this.bookinbutton.Size = new System.Drawing.Size(193, 57);
+            this.bookinbutton.TabIndex = 27;
+            this.bookinbutton.Text = " Bookings";
+            this.bookinbutton.UseTransparentBackground = true;
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.Animated = true;
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Button3.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
+            this.guna2Button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button3.Image = global::DogCareFormApp.Properties.Resources.features;
+            this.guna2Button3.ImageOffset = new System.Drawing.Point(0, 1);
+            this.guna2Button3.ImageSize = new System.Drawing.Size(24, 24);
+            this.guna2Button3.Location = new System.Drawing.Point(-1, 464);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.PressedColor = System.Drawing.Color.DarkOrange;
+            this.guna2Button3.Size = new System.Drawing.Size(193, 57);
+            this.guna2Button3.TabIndex = 29;
+            this.guna2Button3.Text = " Dogs-List";
+            this.guna2Button3.UseTransparentBackground = true;
+            // 
+            // dashbutton1
+            // 
+            this.dashbutton1.Animated = true;
+            this.dashbutton1.BackColor = System.Drawing.Color.Transparent;
+            this.dashbutton1.BorderColor = System.Drawing.Color.Transparent;
+            this.dashbutton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.dashbutton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dashbutton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.dashbutton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.dashbutton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.dashbutton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.dashbutton1.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dashbutton1.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
+            this.dashbutton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dashbutton1.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.dashbutton1.Image = global::DogCareFormApp.Properties.Resources.dashboard_panel;
+            this.dashbutton1.ImageOffset = new System.Drawing.Point(-1, 1);
+            this.dashbutton1.ImageSize = new System.Drawing.Size(25, 25);
+            this.dashbutton1.Location = new System.Drawing.Point(-1, 194);
+            this.dashbutton1.Name = "dashbutton1";
+            this.dashbutton1.PressedColor = System.Drawing.Color.DarkOrange;
+            this.dashbutton1.Size = new System.Drawing.Size(193, 57);
+            this.dashbutton1.TabIndex = 26;
+            this.dashbutton1.Text = " Dashboard";
+            this.dashbutton1.UseTransparentBackground = true;
+            // 
+            // inventorybutton
+            // 
+            this.inventorybutton.Animated = true;
+            this.inventorybutton.BackColor = System.Drawing.Color.Transparent;
+            this.inventorybutton.BorderColor = System.Drawing.Color.Transparent;
+            this.inventorybutton.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.inventorybutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.inventorybutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.inventorybutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.inventorybutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.inventorybutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.inventorybutton.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.inventorybutton.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
+            this.inventorybutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.inventorybutton.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.inventorybutton.Image = global::DogCareFormApp.Properties.Resources.inbox_full__1_;
+            this.inventorybutton.ImageOffset = new System.Drawing.Point(-1, 1);
+            this.inventorybutton.ImageSize = new System.Drawing.Size(23, 23);
+            this.inventorybutton.Location = new System.Drawing.Point(-1, 374);
+            this.inventorybutton.Name = "inventorybutton";
+            this.inventorybutton.PressedColor = System.Drawing.Color.DarkOrange;
+            this.inventorybutton.Size = new System.Drawing.Size(193, 57);
+            this.inventorybutton.TabIndex = 28;
+            this.inventorybutton.Text = " Inventory";
+            this.inventorybutton.UseTransparentBackground = true;
             // 
             // guna2PictureBox14
             // 
@@ -149,115 +270,6 @@
             this.guna2PictureBox14.UseTransparentBackground = true;
             this.guna2PictureBox14.Click += new System.EventHandler(this.guna2PictureBox14_Click);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(79, 593);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 20);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Settings";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(78, 489);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 20);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Dogs List";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(74, 385);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 20);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Inventory";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(71, 281);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Bookings";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox6.Image = global::DogCareFormApp.Properties.Resources.features;
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(12, 480);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox6.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox6.Size = new System.Drawing.Size(30, 40);
-            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox6.TabIndex = 10;
-            this.guna2PictureBox6.TabStop = false;
-            this.guna2PictureBox6.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2PictureBox5.Image = global::DogCareFormApp.Properties.Resources.inbox_full__1_;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(12, 376);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox5.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox5.Size = new System.Drawing.Size(30, 40);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox5.TabIndex = 9;
-            this.guna2PictureBox5.TabStop = false;
-            this.guna2PictureBox5.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Image = global::DogCareFormApp.Properties.Resources.booking2;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(12, 272);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox4.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox4.Size = new System.Drawing.Size(30, 40);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox4.TabIndex = 8;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            this.guna2PictureBox4.Click += new System.EventHandler(this.guna2PictureBox4_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.sign_out_alt1;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(109, 717);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox1.ShadowDecoration.Depth = 3;
-            this.guna2PictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(25, 25);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 6;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click_2);
-            // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
@@ -267,66 +279,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 41);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "PawPal";
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::DogCareFormApp.Properties.Resources.settings;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(12, 584);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox2.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(30, 40);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 4;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
-            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(46, 718);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Logout";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel1.Controls.Add(this.dashbutton1);
-            this.panel1.Location = new System.Drawing.Point(-2, 158);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(220, 61);
-            this.panel1.TabIndex = 3;
-            // 
-            // dashbutton1
-            // 
-            this.dashbutton1.Animated = true;
-            this.dashbutton1.BackColor = System.Drawing.Color.Transparent;
-            this.dashbutton1.BorderColor = System.Drawing.Color.Transparent;
-            this.dashbutton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.dashbutton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.dashbutton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.dashbutton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.dashbutton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.dashbutton1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.dashbutton1.Font = new System.Drawing.Font("Cascadia Code", 12.75F);
-            this.dashbutton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dashbutton1.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.dashbutton1.Location = new System.Drawing.Point(0, 0);
-            this.dashbutton1.Name = "dashbutton1";
-            this.dashbutton1.PressedColor = System.Drawing.Color.MidnightBlue;
-            this.dashbutton1.Size = new System.Drawing.Size(193, 61);
-            this.dashbutton1.TabIndex = 26;
-            this.dashbutton1.Text = "   Dashboard";
-            this.dashbutton1.UseTransparentBackground = true;
             // 
             // guna2Panel1
             // 
@@ -610,14 +562,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
@@ -640,17 +585,6 @@
 
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
         private System.Windows.Forms.Label label8;
@@ -669,9 +603,13 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox13;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox12;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox14;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2Button dashbutton1;
+        private Guna.UI2.WinForms.Guna2Button bookinbutton;
+        private Guna.UI2.WinForms.Guna2Button inventorybutton;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button logoutbutton;
     }
 }
 

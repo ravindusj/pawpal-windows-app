@@ -492,7 +492,7 @@
             this.guna2PictureBox11.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox11.Image = global::DogCareFormApp.Properties.Resources.dog;
             this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(48, 22);
+            this.guna2PictureBox11.Location = new System.Drawing.Point(28, 25);
             this.guna2PictureBox11.Name = "guna2PictureBox11";
             this.guna2PictureBox11.Size = new System.Drawing.Size(327, 228);
             this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

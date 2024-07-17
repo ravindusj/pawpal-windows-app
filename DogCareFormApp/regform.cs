@@ -170,5 +170,51 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(savedFilePath) || !File.Exists(savedFilePath))
+                {
+                    MessageBox.Show("The Excel file does not exist.");
+                    return;
+                }
+
+                // Ensure the file is not being used by another process by copying to a temporary file
+                string tempFilePath = Path.Combine(Path.GetTempPath(), Path.GetFileName(savedFilePath));
+                File.Copy(savedFilePath, tempFilePath, true);
+
+                using (var workbook = new XLWorkbook(tempFilePath))
+                {
+                    var worksheet = workbook.Worksheets.FirstOrDefault();
+                    if (worksheet == null || worksheet.LastRowUsed() == null)
+                    {
+                        MessageBox.Show("The worksheet is empty or does not exist.");
+                        return;
+                    }
+
+                    // Get the last row number
+                    int lastRow = worksheet.LastRowUsed().RowNumber();
+
+                    // Delete the last row
+                    worksheet.Row(lastRow).Delete();
+
+                    // Save the changes to the temporary file
+                    workbook.SaveAs(tempFilePath);
+                }
+
+                // Replace the original file with the modified temporary file
+                File.Copy(tempFilePath, savedFilePath, true);
+                File.Delete(tempFilePath);
+
+                MessageBox.Show("Last row deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
+        }
+
     }
 }

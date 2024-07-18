@@ -33,20 +33,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 47.99999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(131, 132);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Zolla", 47.99999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(118, 132);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(221, 75);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(219, 83);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "PawPal";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -57,7 +57,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(62, 289);
+            this.label10.Location = new System.Drawing.Point(69, 289);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 25);
             this.label10.TabIndex = 19;
@@ -69,7 +69,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 382);
+            this.label1.Location = new System.Drawing.Point(69, 382);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 25);
             this.label1.TabIndex = 21;
@@ -92,7 +92,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(67, 465);
+            this.guna2Button1.Location = new System.Drawing.Point(74, 465);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(142, 50);
             this.guna2Button1.TabIndex = 23;
@@ -106,26 +106,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(140, 202);
+            this.label2.Location = new System.Drawing.Point(118, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(219, 31);
             this.label2.TabIndex = 24;
             this.label2.Text = "Dog Care Center";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // guna2PictureBox14
-            // 
-            this.guna2PictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox14.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox14.Image = global::DogCareFormApp.Properties.Resources.play_with_pet;
-            this.guna2PictureBox14.ImageRotate = 0F;
-            this.guna2PictureBox14.Location = new System.Drawing.Point(106, 29);
-            this.guna2PictureBox14.Name = "guna2PictureBox14";
-            this.guna2PictureBox14.Size = new System.Drawing.Size(243, 141);
-            this.guna2PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox14.TabIndex = 27;
-            this.guna2PictureBox14.TabStop = false;
-            this.guna2PictureBox14.UseTransparentBackground = true;
             // 
             // guna2TextBox2
             // 
@@ -143,7 +129,7 @@
             this.guna2TextBox2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(202, 375);
+            this.guna2TextBox2.Location = new System.Drawing.Point(209, 375);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '*';
@@ -176,7 +162,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(202, 276);
+            this.guna2TextBox1.Location = new System.Drawing.Point(209, 276);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
@@ -211,13 +197,27 @@
             this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(238, 465);
+            this.guna2Button2.Location = new System.Drawing.Point(245, 465);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(142, 50);
             this.guna2Button2.TabIndex = 31;
             this.guna2Button2.Text = "Create";
             this.guna2Button2.UseTransparentBackground = true;
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // guna2PictureBox14
+            // 
+            this.guna2PictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox14.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox14.Image = global::DogCareFormApp.Properties.Resources.play_with_pet;
+            this.guna2PictureBox14.ImageRotate = 0F;
+            this.guna2PictureBox14.Location = new System.Drawing.Point(106, 29);
+            this.guna2PictureBox14.Name = "guna2PictureBox14";
+            this.guna2PictureBox14.Size = new System.Drawing.Size(243, 141);
+            this.guna2PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox14.TabIndex = 27;
+            this.guna2PictureBox14.TabStop = false;
+            this.guna2PictureBox14.UseTransparentBackground = true;
             // 
             // Landing
             // 
@@ -235,6 +235,8 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Landing";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Login_Load);

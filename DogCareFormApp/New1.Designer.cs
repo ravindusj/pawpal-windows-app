@@ -41,6 +41,7 @@
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.creditLbl = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel4.SuspendLayout();
@@ -231,18 +232,29 @@
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(307, 492);
+            this.guna2Button2.Location = new System.Drawing.Point(15, 367);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(941, 333);
             this.guna2Button2.TabIndex = 30;
-            this.guna2Button2.Text = "guna2Button1";
+            this.guna2Button2.Text = "Registration";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // creditLbl
+            // 
+            this.creditLbl.AutoSize = true;
+            this.creditLbl.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creditLbl.Location = new System.Drawing.Point(332, 733);
+            this.creditLbl.Name = "creditLbl";
+            this.creditLbl.Size = new System.Drawing.Size(361, 21);
+            this.creditLbl.TabIndex = 31;
+            this.creditLbl.Text = "© 2024 Group X C# Project. All rights reserved.";
             // 
             // New1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.creditLbl);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.guna2CustomGradientPanel2);
@@ -263,6 +275,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -280,5 +293,6 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private System.Windows.Forms.Label creditLbl;
     }
 }

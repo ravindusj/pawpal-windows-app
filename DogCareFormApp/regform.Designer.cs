@@ -124,6 +124,7 @@
             this.OwnerId.SelectedText = "";
             this.OwnerId.Size = new System.Drawing.Size(206, 30);
             this.OwnerId.TabIndex = 6;
+            this.OwnerId.TextChanged += new System.EventHandler(this.OwnerId_TextChanged);
             // 
             // OwnerContact
             // 

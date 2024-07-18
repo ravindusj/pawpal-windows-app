@@ -8,17 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DocumentFormat.OpenXml.Drawing.Charts;
+using Irony.Parsing;
 
 namespace DogCareFormApp
 {
     public partial class Booking : Form
     {
 
-        private SqlConnection con;
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
+
         public Booking()
         {
             InitializeComponent();
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,14 +52,14 @@ namespace DogCareFormApp
                 MessageBox.Show("Please fill all the fields");
                 return;
             }
-            string Query = $"INSERT INTO TableInt (label1, label2,label3,label4,label5,label6) VALUES ('{label1}','{label2}','{label3}','{label4}','{label5}','{label6}')";
-            SqlCommand cmd = new SqlCommand(Query, con);
+            string Query = $"INSERT INTO [Table] (petID, name, mobile, service, date, total) VALUES ('{label1}','{label2}','{label3}','{label4}','{label5}','{label6}')";
+            SqlCommand cmd = new SqlCommand(Query, con1);
             {
-                try { con.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Booking Added"); }
+                try { con1.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Saved"); }
                 catch (Exception ex) { MessageBox.Show(ex.Message); }
                 finally
                 {
-                    con.Close();
+                    con1.Close();
                 }
             }
         }

@@ -45,6 +45,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.bookingDash1 = new DogCareFormApp.BookingDash();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -55,10 +56,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.UserControl3 = new DogCareFormApp.UserControl1();
-            this.bookingDash1 = new DogCareFormApp.BookingDash();
-            this.userControl13 = new DogCareFormApp.UserControl1();
-            this.userControl12 = new DogCareFormApp.UserControl1();
+            this.inventoryr = new DogCareFormApp.Inventoryr();
+            this.new11 = new DogCareFormApp.New1();
+            this.bookingDash2 = new DogCareFormApp.BookingDash();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -233,6 +233,7 @@
             this.dashbutton1.TabIndex = 26;
             this.dashbutton1.Text = " Dashboard";
             this.dashbutton1.UseTransparentBackground = true;
+            this.dashbutton1.Click += new System.EventHandler(this.dashbutton1_Click);
             // 
             // inventorybutton
             // 
@@ -379,8 +380,8 @@
             // 
             // guna2CustomGradientPanel1
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.UserControl3);
             this.guna2CustomGradientPanel1.Controls.Add(this.label10);
+            this.guna2CustomGradientPanel1.Controls.Add(this.bookingDash1);
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.ActiveCaption;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.LightGray;
@@ -391,6 +392,13 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(2);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(964, 52);
             this.guna2CustomGradientPanel1.TabIndex = 20;
+            // 
+            // bookingDash1
+            // 
+            this.bookingDash1.Location = new System.Drawing.Point(-2, -60);
+            this.bookingDash1.Name = "bookingDash1";
+            this.bookingDash1.Size = new System.Drawing.Size(1027, 634);
+            this.bookingDash1.TabIndex = 25;
             // 
             // guna2CustomGradientPanel3
             // 
@@ -542,33 +550,28 @@
             this.guna2PictureBox9.TabStop = false;
             this.guna2PictureBox9.UseTransparentBackground = true;
             // 
-            // UserControl3
+            // inventoryr
             // 
-            this.UserControl3.Location = new System.Drawing.Point(0, -66);
-            this.UserControl3.Name = "UserControl3";
-            this.UserControl3.Size = new System.Drawing.Size(1024, 778);
-            this.UserControl3.TabIndex = 25;
+            this.inventoryr.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.inventoryr.Location = new System.Drawing.Point(195, 0);
+            this.inventoryr.Name = "inventoryr";
+            this.inventoryr.Size = new System.Drawing.Size(1024, 778);
+            this.inventoryr.TabIndex = 26;
             // 
-            // bookingDash1
+            // new11
             // 
-            this.bookingDash1.Location = new System.Drawing.Point(197, 0);
-            this.bookingDash1.Name = "bookingDash1";
-            this.bookingDash1.Size = new System.Drawing.Size(1015, 634);
-            this.bookingDash1.TabIndex = 25;
+            this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.new11.Location = new System.Drawing.Point(197, 0);
+            this.new11.Name = "new11";
+            this.new11.Size = new System.Drawing.Size(1024, 778);
+            this.new11.TabIndex = 27;
             // 
-            // userControl13
+            // bookingDash2
             // 
-            this.userControl13.Location = new System.Drawing.Point(0, 0);
-            this.userControl13.Name = "userControl13";
-            this.userControl13.Size = new System.Drawing.Size(1024, 778);
-            this.userControl13.TabIndex = 0;
-            // 
-            // userControl12
-            // 
-            this.userControl12.Location = new System.Drawing.Point(0, 0);
-            this.userControl12.Name = "userControl12";
-            this.userControl12.Size = new System.Drawing.Size(1024, 778);
-            this.userControl12.TabIndex = 0;
+            this.bookingDash2.Location = new System.Drawing.Point(198, 6);
+            this.bookingDash2.Name = "bookingDash2";
+            this.bookingDash2.Size = new System.Drawing.Size(1021, 768);
+            this.bookingDash2.TabIndex = 28;
             // 
             // Dashboard
             // 
@@ -577,7 +580,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1425, 778);
-            this.Controls.Add(this.bookingDash1);
+            this.Controls.Add(this.new11);
+            this.Controls.Add(this.inventoryr);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2PictureBox10);
             this.Controls.Add(this.guna2TextBox1);
@@ -588,6 +592,7 @@
             this.Controls.Add(this.guna2PictureBox9);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.Controls.Add(this.bookingDash2);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.ImeMode = System.Windows.Forms.ImeMode.Katakana;
@@ -645,11 +650,11 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button logoutbutton;
-        private UserControl1 UserControl3;
-        private UserControl1 userControl12;
-        private UserControl1 userControl13;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox11;
         private BookingDash bookingDash1;
+        private Inventoryr inventoryr;
+        private New1 new11;
+        private BookingDash bookingDash2;
     }
 }
 

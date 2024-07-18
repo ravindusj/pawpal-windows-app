@@ -149,13 +149,17 @@ namespace DogCareFormApp
 
         private void inventorybutton_Click(object sender, EventArgs e)
         {
-            UserControl3.BringToFront();
+            inventoryr.BringToFront();
         }
 
         private void bookinbutton_Click(object sender, EventArgs e)
         {
-            BookingDash bookingDash = new BookingDash();
-            bookingDash.Show();
+            bookingDash2.BringToFront();
+        }
+
+        private void dashbutton1_Click(object sender, EventArgs e)
+        {
+            new11.BringToFront();
         }
     }
 }

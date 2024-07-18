@@ -27,5 +27,10 @@ namespace DogCareFormApp
             Booking bookingForm = new Booking();
             bookingForm.Show();
         }
+
+        private void BookingDash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,14 @@ namespace DogCareFormApp
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+                    }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

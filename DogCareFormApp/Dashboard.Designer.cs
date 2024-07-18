@@ -55,6 +55,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.alert1 = new DogCareFormApp.alert();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -67,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
             this.guna2CustomGradientPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             this.SuspendLayout();
@@ -497,6 +499,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel2.Controls.Add(this.alert1);
             this.panel2.Location = new System.Drawing.Point(1228, 46);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(198, 340);
@@ -534,6 +537,13 @@
             this.guna2PictureBox9.TabIndex = 19;
             this.guna2PictureBox9.TabStop = false;
             this.guna2PictureBox9.UseTransparentBackground = true;
+            // 
+            // alert1
+            // 
+            this.alert1.Location = new System.Drawing.Point(2, 8);
+            this.alert1.Name = "alert1";
+            this.alert1.Size = new System.Drawing.Size(194, 331);
+            this.alert1.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -575,6 +585,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
             this.guna2CustomGradientPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             this.ResumeLayout(false);
@@ -610,6 +621,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button logoutbutton;
+        private alert alert1;
     }
 }
 

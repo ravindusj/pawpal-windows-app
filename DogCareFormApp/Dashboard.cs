@@ -161,5 +161,12 @@ namespace DogCareFormApp
         {
             new11.BringToFront();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Regform form = new Regform();
+            form.Show();
+
+        }
     }
 }

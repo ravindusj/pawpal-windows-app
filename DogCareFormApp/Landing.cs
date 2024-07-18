@@ -60,8 +60,13 @@ namespace DogCareFormApp
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Regform   form = new Regform();
+            Regform form = new Regform();
             form.Show();
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -35,7 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.SuspendLayout();
@@ -78,10 +77,9 @@
             // guna2Button1
             // 
             this.guna2Button1.Animated = true;
-            this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.SaddleBrown;
-            this.guna2Button1.BorderRadius = 24;
+            this.guna2Button1.BorderColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button1.BorderRadius = 6;
             this.guna2Button1.BorderThickness = 2;
             this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -89,12 +87,13 @@
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.Font = new System.Drawing.Font("Uni Neue-Trial", 21.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(74, 465);
+            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button1.Location = new System.Drawing.Point(163, 464);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(142, 50);
+            this.guna2Button1.Size = new System.Drawing.Size(131, 50);
             this.guna2Button1.TabIndex = 23;
             this.guna2Button1.Text = "Login";
             this.guna2Button1.UseTransparentBackground = true;
@@ -116,7 +115,7 @@
             // guna2TextBox2
             // 
             this.guna2TextBox2.Animated = true;
-            this.guna2TextBox2.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.guna2TextBox2.BorderColor = System.Drawing.Color.SteelBlue;
             this.guna2TextBox2.BorderThickness = 2;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
@@ -126,9 +125,9 @@
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.DarkOrange;
             this.guna2TextBox2.Location = new System.Drawing.Point(209, 375);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
@@ -145,11 +144,12 @@
             this.guna2TextBox2.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.guna2TextBox2.TabIndex = 29;
             this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // guna2TextBox1
             // 
             this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.SteelBlue;
             this.guna2TextBox1.BorderThickness = 2;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
@@ -159,9 +159,9 @@
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkOrange;
             this.guna2TextBox1.Location = new System.Drawing.Point(209, 276);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
@@ -179,31 +179,6 @@
             this.guna2TextBox1.TabIndex = 30;
             this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged_1);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.SaddleBrown;
-            this.guna2Button2.BorderRadius = 24;
-            this.guna2Button2.BorderThickness = 2;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(245, 465);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(142, 50);
-            this.guna2Button2.TabIndex = 31;
-            this.guna2Button2.Text = "Create";
-            this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2PictureBox14
             // 
@@ -225,7 +200,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(456, 618);
-            this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2PictureBox14);
@@ -256,6 +230,5 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox14;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }

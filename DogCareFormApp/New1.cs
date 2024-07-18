@@ -16,5 +16,12 @@ namespace DogCareFormApp
         {
             InitializeComponent();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Regform form = new Regform();
+            form.Show();
+
+        }
     }
 }

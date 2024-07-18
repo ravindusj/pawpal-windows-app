@@ -44,43 +44,45 @@
             // lstTreatmentCosts
             // 
             this.lstTreatmentCosts.FormattingEnabled = true;
-            this.lstTreatmentCosts.Location = new System.Drawing.Point(541, 484);
-            this.lstTreatmentCosts.Margin = new System.Windows.Forms.Padding(4);
+            this.lstTreatmentCosts.ItemHeight = 16;
+            this.lstTreatmentCosts.Location = new System.Drawing.Point(721, 596);
+            this.lstTreatmentCosts.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.lstTreatmentCosts.Name = "lstTreatmentCosts";
-            this.lstTreatmentCosts.Size = new System.Drawing.Size(325, 108);
+            this.lstTreatmentCosts.Size = new System.Drawing.Size(432, 132);
             this.lstTreatmentCosts.TabIndex = 19;
             // 
             // lstTreatments
             // 
             this.lstTreatments.FormattingEnabled = true;
-            this.lstTreatments.Location = new System.Drawing.Point(541, 305);
-            this.lstTreatments.Margin = new System.Windows.Forms.Padding(4);
+            this.lstTreatments.ItemHeight = 16;
+            this.lstTreatments.Location = new System.Drawing.Point(721, 375);
+            this.lstTreatments.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.lstTreatments.Name = "lstTreatments";
-            this.lstTreatments.Size = new System.Drawing.Size(335, 121);
+            this.lstTreatments.Size = new System.Drawing.Size(445, 148);
             this.lstTreatments.TabIndex = 18;
             // 
             // dtpCheckOut
             // 
-            this.dtpCheckOut.Location = new System.Drawing.Point(541, 243);
-            this.dtpCheckOut.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpCheckOut.Location = new System.Drawing.Point(721, 299);
+            this.dtpCheckOut.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dtpCheckOut.Name = "dtpCheckOut";
-            this.dtpCheckOut.Size = new System.Drawing.Size(265, 20);
+            this.dtpCheckOut.Size = new System.Drawing.Size(352, 22);
             this.dtpCheckOut.TabIndex = 17;
             // 
             // dtpCheckIn
             // 
-            this.dtpCheckIn.Location = new System.Drawing.Point(541, 184);
-            this.dtpCheckIn.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpCheckIn.Location = new System.Drawing.Point(721, 226);
+            this.dtpCheckIn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dtpCheckIn.Name = "dtpCheckIn";
-            this.dtpCheckIn.Size = new System.Drawing.Size(265, 20);
+            this.dtpCheckIn.Size = new System.Drawing.Size(352, 22);
             this.dtpCheckIn.TabIndex = 16;
             // 
             // txtPetID
             // 
-            this.txtPetID.Location = new System.Drawing.Point(541, 129);
-            this.txtPetID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPetID.Location = new System.Drawing.Point(721, 162);
+            this.txtPetID.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtPetID.Name = "txtPetID";
-            this.txtPetID.Size = new System.Drawing.Size(351, 20);
+            this.txtPetID.Size = new System.Drawing.Size(467, 22);
             this.txtPetID.TabIndex = 15;
             this.txtPetID.TextChanged += new System.EventHandler(this.txtPetID_TextChanged);
             // 
@@ -88,8 +90,8 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(207, 494);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(276, 608);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(142, 20);
             this.label5.TabIndex = 14;
@@ -99,8 +101,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(207, 305);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(276, 375);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(185, 20);
             this.label4.TabIndex = 13;
@@ -110,8 +112,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(207, 244);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(276, 300);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(138, 20);
             this.label3.TabIndex = 12;
@@ -121,8 +123,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(207, 185);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(276, 228);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 11;
@@ -132,8 +134,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(207, 130);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(276, 160);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 20);
             this.label1.TabIndex = 10;
@@ -142,18 +144,19 @@
             // btnGenerateInvoice
             // 
             this.btnGenerateInvoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerateInvoice.Location = new System.Drawing.Point(541, 660);
+            this.btnGenerateInvoice.Location = new System.Drawing.Point(721, 812);
+            this.btnGenerateInvoice.Margin = new System.Windows.Forms.Padding(4);
             this.btnGenerateInvoice.Name = "btnGenerateInvoice";
-            this.btnGenerateInvoice.Size = new System.Drawing.Size(298, 47);
+            this.btnGenerateInvoice.Size = new System.Drawing.Size(352, 42);
             this.btnGenerateInvoice.TabIndex = 20;
             this.btnGenerateInvoice.Text = "Generate Invoice";
             this.btnGenerateInvoice.UseVisualStyleBackColor = true;
             // 
             // InvoiceGen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1099, 855);
+            this.ClientSize = new System.Drawing.Size(1465, 1052);
             this.Controls.Add(this.btnGenerateInvoice);
             this.Controls.Add(this.lstTreatmentCosts);
             this.Controls.Add(this.lstTreatments);
@@ -165,6 +168,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "InvoiceGen";
             this.Text = "InvoiceGen";
             this.ResumeLayout(false);

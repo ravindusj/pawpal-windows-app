@@ -146,5 +146,10 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void inventorybutton_Click(object sender, EventArgs e)
+        {
+            UserControl3.BringToFront();
+        }
     }
 }

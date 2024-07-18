@@ -151,5 +151,11 @@ namespace DogCareFormApp
         {
             UserControl3.BringToFront();
         }
+
+        private void bookinbutton_Click(object sender, EventArgs e)
+        {
+            BookingDash bookingDash = new BookingDash();
+            bookingDash.Show();
+        }
     }
 }

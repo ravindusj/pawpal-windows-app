@@ -45,22 +45,20 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.userControl26 = new DogCareFormApp.UserControl2();
-            this.userControl13 = new DogCareFormApp.UserControl1();
-            this.userControl24 = new DogCareFormApp.UserControl2();
-            this.userControl23 = new DogCareFormApp.UserControl2();
-            this.userControl12 = new DogCareFormApp.UserControl1();
-            this.UserControl3 = new DogCareFormApp.UserControl1();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.UserControl3 = new DogCareFormApp.UserControl1();
+            this.bookingDash1 = new DogCareFormApp.BookingDash();
+            this.userControl13 = new DogCareFormApp.UserControl1();
+            this.userControl12 = new DogCareFormApp.UserControl1();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -72,9 +70,9 @@
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
             this.guna2CustomGradientPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -182,6 +180,7 @@
             this.bookinbutton.TabIndex = 27;
             this.bookinbutton.Text = " Bookings";
             this.bookinbutton.UseTransparentBackground = true;
+            this.bookinbutton.Click += new System.EventHandler(this.bookinbutton_Click);
             // 
             // guna2Button3
             // 
@@ -380,11 +379,6 @@
             // 
             // guna2CustomGradientPanel1
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.userControl26);
-            this.guna2CustomGradientPanel1.Controls.Add(this.userControl13);
-            this.guna2CustomGradientPanel1.Controls.Add(this.userControl24);
-            this.guna2CustomGradientPanel1.Controls.Add(this.userControl23);
-            this.guna2CustomGradientPanel1.Controls.Add(this.userControl12);
             this.guna2CustomGradientPanel1.Controls.Add(this.UserControl3);
             this.guna2CustomGradientPanel1.Controls.Add(this.label10);
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
@@ -397,48 +391,6 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(2);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(964, 52);
             this.guna2CustomGradientPanel1.TabIndex = 20;
-            // 
-            // userControl26
-            // 
-            this.userControl26.Location = new System.Drawing.Point(-2, -54);
-            this.userControl26.Name = "userControl26";
-            this.userControl26.Size = new System.Drawing.Size(1024, 778);
-            this.userControl26.TabIndex = 27;
-            // 
-            // userControl13
-            // 
-            this.userControl13.Location = new System.Drawing.Point(-6, -69);
-            this.userControl13.Name = "userControl13";
-            this.userControl13.Size = new System.Drawing.Size(1028, 778);
-            this.userControl13.TabIndex = 25;
-            // 
-            // userControl24
-            // 
-            this.userControl24.Location = new System.Drawing.Point(-2, -60);
-            this.userControl24.Name = "userControl24";
-            this.userControl24.Size = new System.Drawing.Size(1024, 778);
-            this.userControl24.TabIndex = 26;
-            // 
-            // userControl23
-            // 
-            this.userControl23.Location = new System.Drawing.Point(0, -60);
-            this.userControl23.Name = "userControl23";
-            this.userControl23.Size = new System.Drawing.Size(1024, 778);
-            this.userControl23.TabIndex = 26;
-            // 
-            // userControl12
-            // 
-            this.userControl12.Location = new System.Drawing.Point(0, -66);
-            this.userControl12.Name = "userControl12";
-            this.userControl12.Size = new System.Drawing.Size(1024, 778);
-            this.userControl12.TabIndex = 25;
-            // 
-            // UserControl3
-            // 
-            this.UserControl3.Location = new System.Drawing.Point(0, -66);
-            this.UserControl3.Name = "UserControl3";
-            this.UserControl3.Size = new System.Drawing.Size(1024, 778);
-            this.UserControl3.TabIndex = 25;
             // 
             // guna2CustomGradientPanel3
             // 
@@ -506,6 +458,20 @@
             this.guna2CustomGradientPanel4.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(2);
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(289, 197);
             this.guna2CustomGradientPanel4.TabIndex = 23;
+            // 
+            // guna2PictureBox11
+            // 
+            this.guna2PictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox11.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox11.Image = global::DogCareFormApp.Properties.Resources.dog;
+            this.guna2PictureBox11.ImageRotate = 0F;
+            this.guna2PictureBox11.Location = new System.Drawing.Point(28, 25);
+            this.guna2PictureBox11.Name = "guna2PictureBox11";
+            this.guna2PictureBox11.Size = new System.Drawing.Size(327, 228);
+            this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox11.TabIndex = 25;
+            this.guna2PictureBox11.TabStop = false;
+            this.guna2PictureBox11.UseTransparentBackground = true;
             // 
             // guna2TextBox1
             // 
@@ -576,19 +542,33 @@
             this.guna2PictureBox9.TabStop = false;
             this.guna2PictureBox9.UseTransparentBackground = true;
             // 
-            // guna2PictureBox11
+            // UserControl3
             // 
-            this.guna2PictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox11.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox11.Image = global::DogCareFormApp.Properties.Resources.dog;
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(28, 25);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.Size = new System.Drawing.Size(327, 228);
-            this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox11.TabIndex = 25;
-            this.guna2PictureBox11.TabStop = false;
-            this.guna2PictureBox11.UseTransparentBackground = true;
+            this.UserControl3.Location = new System.Drawing.Point(0, -66);
+            this.UserControl3.Name = "UserControl3";
+            this.UserControl3.Size = new System.Drawing.Size(1024, 778);
+            this.UserControl3.TabIndex = 25;
+            // 
+            // bookingDash1
+            // 
+            this.bookingDash1.Location = new System.Drawing.Point(197, 0);
+            this.bookingDash1.Name = "bookingDash1";
+            this.bookingDash1.Size = new System.Drawing.Size(1015, 634);
+            this.bookingDash1.TabIndex = 25;
+            // 
+            // userControl13
+            // 
+            this.userControl13.Location = new System.Drawing.Point(0, 0);
+            this.userControl13.Name = "userControl13";
+            this.userControl13.Size = new System.Drawing.Size(1024, 778);
+            this.userControl13.TabIndex = 0;
+            // 
+            // userControl12
+            // 
+            this.userControl12.Location = new System.Drawing.Point(0, 0);
+            this.userControl12.Name = "userControl12";
+            this.userControl12.Size = new System.Drawing.Size(1024, 778);
+            this.userControl12.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -597,6 +577,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1425, 778);
+            this.Controls.Add(this.bookingDash1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2PictureBox10);
             this.Controls.Add(this.guna2TextBox1);
@@ -629,9 +610,9 @@
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
             this.guna2CustomGradientPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -666,11 +647,9 @@
         private Guna.UI2.WinForms.Guna2Button logoutbutton;
         private UserControl1 UserControl3;
         private UserControl1 userControl12;
-        private UserControl2 userControl24;
-        private UserControl2 userControl23;
-        private UserControl2 userControl26;
         private UserControl1 userControl13;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox11;
+        private BookingDash bookingDash1;
     }
 }
 

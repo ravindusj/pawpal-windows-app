@@ -473,6 +473,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\power.png" />
+    <None Include="Resources\user-skill-gear.png" />
     <None Include="Resources\dog %284%29.png" />
     <None Include="Resources\add.png" />
     <None Include="Resources\logindog.png" />

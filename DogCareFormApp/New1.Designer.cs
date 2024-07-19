@@ -36,12 +36,12 @@
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.creditLbl = new System.Windows.Forms.Label();
-            this.regsiter1 = new DogCareFormApp.Regsiter();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.regsiter1 = new DogCareFormApp.Regsiter();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel4.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
@@ -67,7 +67,7 @@
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.guna2TextBox1.Font = new System.Drawing.Font("Poppins Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkOrange;
             this.guna2TextBox1.Location = new System.Drawing.Point(646, 9);
@@ -166,21 +166,12 @@
             // creditLbl
             // 
             this.creditLbl.AutoSize = true;
-            this.creditLbl.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creditLbl.Location = new System.Drawing.Point(399, 745);
+            this.creditLbl.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creditLbl.Location = new System.Drawing.Point(644, 746);
             this.creditLbl.Name = "creditLbl";
-            this.creditLbl.Size = new System.Drawing.Size(361, 21);
+            this.creditLbl.Size = new System.Drawing.Size(374, 28);
             this.creditLbl.TabIndex = 31;
             this.creditLbl.Text = "© 2024 Group X C# Project. All rights reserved.";
-            // 
-            // regsiter1
-            // 
-            this.regsiter1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.regsiter1.Location = new System.Drawing.Point(0, 359);
-            this.regsiter1.Name = "regsiter1";
-            this.regsiter1.Size = new System.Drawing.Size(1018, 370);
-            this.regsiter1.TabIndex = 32;
-            this.regsiter1.Load += new System.EventHandler(this.regsiter1_Load);
             // 
             // guna2PictureBox13
             // 
@@ -252,6 +243,15 @@
             this.guna2PictureBox10.TabIndex = 26;
             this.guna2PictureBox10.TabStop = false;
             this.guna2PictureBox10.UseTransparentBackground = true;
+            // 
+            // regsiter1
+            // 
+            this.regsiter1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.regsiter1.Location = new System.Drawing.Point(0, 359);
+            this.regsiter1.Name = "regsiter1";
+            this.regsiter1.Size = new System.Drawing.Size(1018, 370);
+            this.regsiter1.TabIndex = 32;
+            this.regsiter1.Load += new System.EventHandler(this.regsiter1_Load);
             // 
             // New1
             // 

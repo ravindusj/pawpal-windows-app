@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.savechanges = new System.Windows.Forms.Button();
             this.NewPassword = new System.Windows.Forms.TextBox();
@@ -39,33 +38,29 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(163, 45);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 108);
-            this.label5.TabIndex = 34;
-            this.label5.Text = "Settings\r\n\r\n\r\n\r\n";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(79, 208);
+            this.label6.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(323, 203);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 13);
+            this.label6.Size = new System.Drawing.Size(165, 28);
             this.label6.TabIndex = 33;
-            this.label6.Text = "Current Username";
+            this.label6.Text = "Current Username :";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // savechanges
             // 
             this.savechanges.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.savechanges.Location = new System.Drawing.Point(286, 418);
+            this.savechanges.Location = new System.Drawing.Point(534, 437);
             this.savechanges.Name = "savechanges";
             this.savechanges.Size = new System.Drawing.Size(110, 41);
             this.savechanges.TabIndex = 32;
@@ -75,64 +70,67 @@
             // 
             // NewPassword
             // 
-            this.NewPassword.Location = new System.Drawing.Point(201, 346);
+            this.NewPassword.Location = new System.Drawing.Point(511, 352);
             this.NewPassword.Name = "NewPassword";
-            this.NewPassword.Size = new System.Drawing.Size(195, 20);
+            this.NewPassword.Size = new System.Drawing.Size(191, 20);
             this.NewPassword.TabIndex = 31;
             this.NewPassword.TextChanged += new System.EventHandler(this.NewPassword_TextChanged);
             // 
             // CurrentPassword
             // 
-            this.CurrentPassword.Location = new System.Drawing.Point(201, 251);
+            this.CurrentPassword.Location = new System.Drawing.Point(511, 303);
             this.CurrentPassword.Name = "CurrentPassword";
-            this.CurrentPassword.Size = new System.Drawing.Size(195, 20);
+            this.CurrentPassword.Size = new System.Drawing.Size(191, 20);
             this.CurrentPassword.TabIndex = 30;
             this.CurrentPassword.TextChanged += new System.EventHandler(this.CurrentPassword_TextChanged);
             // 
             // NewUsername
             // 
-            this.NewUsername.Location = new System.Drawing.Point(201, 298);
+            this.NewUsername.Location = new System.Drawing.Point(511, 254);
             this.NewUsername.Name = "NewUsername";
-            this.NewUsername.Size = new System.Drawing.Size(195, 20);
+            this.NewUsername.Size = new System.Drawing.Size(191, 20);
             this.NewUsername.TabIndex = 29;
             this.NewUsername.TextChanged += new System.EventHandler(this.NewUsername_TextChanged);
             // 
             // CurrentUsername
             // 
-            this.CurrentUsername.Location = new System.Drawing.Point(201, 205);
+            this.CurrentUsername.Location = new System.Drawing.Point(511, 205);
             this.CurrentUsername.Name = "CurrentUsername";
-            this.CurrentUsername.Size = new System.Drawing.Size(195, 20);
+            this.CurrentUsername.Size = new System.Drawing.Size(191, 20);
             this.CurrentUsername.TabIndex = 28;
             this.CurrentUsername.TextChanged += new System.EventHandler(this.CurrentUsername_TextChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(79, 353);
+            this.label4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(323, 350);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.Size = new System.Drawing.Size(133, 28);
             this.label4.TabIndex = 27;
-            this.label4.Text = "New Password";
+            this.label4.Text = "New Password :";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(79, 258);
+            this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(323, 299);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
+            this.label3.Size = new System.Drawing.Size(159, 28);
             this.label3.TabIndex = 26;
-            this.label3.Text = "Current Password";
+            this.label3.Text = "Current Password :";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 301);
+            this.label2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(323, 251);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.Size = new System.Drawing.Size(139, 28);
             this.label2.TabIndex = 25;
-            this.label2.Text = "New Username";
+            this.label2.Text = "New Username :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
@@ -144,11 +142,77 @@
             this.label1.TabIndex = 24;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label10);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.LightCyan;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(1, 65);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Quality = 50;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 20;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Enabled = true;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 6, 6);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(990, 52);
+            this.guna2CustomGradientPanel1.TabIndex = 35;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(58, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(104, 37);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Settings";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.BorderThickness = 1;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(674, 435);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(151, 43);
+            this.guna2Button1.TabIndex = 36;
+            this.guna2Button1.Text = "Save Changes";
+            this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.user_skill_gear;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(36, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(24, 30);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 30;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // reset_settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label5);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.savechanges);
             this.Controls.Add(this.NewPassword);
@@ -160,15 +224,16 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "reset_settings";
-            this.Size = new System.Drawing.Size(475, 504);
+            this.Size = new System.Drawing.Size(1024, 778);
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button savechanges;
         private System.Windows.Forms.TextBox NewPassword;
@@ -179,5 +244,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

@@ -253,6 +253,16 @@ namespace DogCareFormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap power {
+            get {
+                object obj = ResourceManager.GetObject("power", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search {
             get {
                 object obj = ResourceManager.GetObject("search", resourceCulture);
@@ -296,6 +306,16 @@ namespace DogCareFormApp.Properties {
         internal static System.Drawing.Bitmap target_audience {
             get {
                 object obj = ResourceManager.GetObject("target-audience", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_skill_gear {
+            get {
+                object obj = ResourceManager.GetObject("user-skill-gear", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

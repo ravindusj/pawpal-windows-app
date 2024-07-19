@@ -94,5 +94,33 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string currentUsername = CurrentUsername.Text;
+            string currentPassword = CurrentPassword.Text;
+            string newUsername = NewUsername.Text;
+            string newPassword = NewPassword.Text;
+
+            // Validate the current username and password
+            if (currentUsername != UserCredentials.Username || currentPassword != UserCredentials.Password)
+            {
+                MessageBox.Show("Current username or password is incorrect.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Validate the new username and password
+            if (string.IsNullOrEmpty(newUsername) || string.IsNullOrEmpty(newPassword))
+            {
+                MessageBox.Show("New username and password cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Update the credentials
+            UserCredentials.Username = newUsername;
+            UserCredentials.Password = newPassword;
+
+            MessageBox.Show("Username and password updated successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

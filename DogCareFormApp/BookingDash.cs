@@ -32,5 +32,11 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void Invoice_Click(object sender, EventArgs e)
+        {
+            InvoiceGen invoiceGen = new InvoiceGen();
+            invoiceGen.Show();
+        }
     }
 }

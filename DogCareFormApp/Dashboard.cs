@@ -149,17 +149,16 @@ namespace DogCareFormApp
 
         private void inventorybutton_Click(object sender, EventArgs e)
         {
-            inventoryr.BringToFront();
+            inventoryr1.BringToFront();
         }
 
         private void bookinbutton_Click(object sender, EventArgs e)
         {
-            bookingDash2.BringToFront();
+            bookingDash1.BringToFront();
         }
 
         private void dashbutton1_Click(object sender, EventArgs e)
         {
-            new11.BringToFront();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -172,6 +171,11 @@ namespace DogCareFormApp
         private void guna2Button4_Click(object sender, EventArgs e)
         {
             reset_settings1.BringToFront();
+        }
+
+        private void inventoryr1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

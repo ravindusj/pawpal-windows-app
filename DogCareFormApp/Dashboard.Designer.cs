@@ -55,12 +55,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.new12 = new DogCareFormApp.New1();
             this.reset_settings1 = new DogCareFormApp.reset_settings();
             this.new11 = new DogCareFormApp.New1();
             this.inventoryr = new DogCareFormApp.Inventoryr();
             this.bookingDash1 = new DogCareFormApp.BookingDash();
             this.bookingDash2 = new DogCareFormApp.BookingDash();
-            this.new12 = new DogCareFormApp.New1();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -546,6 +546,14 @@
             this.guna2PictureBox9.TabStop = false;
             this.guna2PictureBox9.UseTransparentBackground = true;
             // 
+            // new12
+            // 
+            this.new12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.new12.Location = new System.Drawing.Point(194, 0);
+            this.new12.Name = "new12";
+            this.new12.Size = new System.Drawing.Size(1024, 778);
+            this.new12.TabIndex = 30;
+            // 
             // reset_settings1
             // 
             this.reset_settings1.Location = new System.Drawing.Point(206, 8);
@@ -582,14 +590,6 @@
             this.bookingDash2.Name = "bookingDash2";
             this.bookingDash2.Size = new System.Drawing.Size(1021, 768);
             this.bookingDash2.TabIndex = 28;
-            // 
-            // new12
-            // 
-            this.new12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.new12.Location = new System.Drawing.Point(194, 0);
-            this.new12.Name = "new12";
-            this.new12.Size = new System.Drawing.Size(1024, 778);
-            this.new12.TabIndex = 30;
             // 
             // Dashboard
             // 

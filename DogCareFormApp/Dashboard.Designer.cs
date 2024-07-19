@@ -29,6 +29,16 @@
         private void InitializeComponent()
         {
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.new11 = new DogCareFormApp.New1();
+            this.bookingDash1 = new DogCareFormApp.BookingDash();
+            this.inventoryr1 = new DogCareFormApp.Inventoryr();
+            this.reset_settings1 = new DogCareFormApp.reset_settings();
             this.logoutbutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.bookinbutton = new Guna.UI2.WinForms.Guna2Button();
@@ -36,23 +46,15 @@
             this.dashbutton1 = new Guna.UI2.WinForms.Guna2Button();
             this.inventorybutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.new11 = new DogCareFormApp.New1();
-            this.bookingDash1 = new DogCareFormApp.BookingDash();
-            this.inventoryr1 = new DogCareFormApp.Inventoryr();
-            this.reset_settings1 = new DogCareFormApp.reset_settings();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
+            this.panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -80,6 +82,102 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(191, 778);
             this.guna2GradientPanel1.TabIndex = 2;
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint_1);
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(34, 96);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 41);
+            this.guna2HtmlLabel1.TabIndex = 0;
+            this.guna2HtmlLabel1.Text = "PawPal";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel2.Controls.Add(this.guna2Button1);
+            this.panel2.Location = new System.Drawing.Point(1228, 46);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(198, 340);
+            this.panel2.TabIndex = 6;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(87, 13);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(56, 20);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Alerts";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(29, 399);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(168, 20);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Upcoming Bookings";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel3.Location = new System.Drawing.Point(0, 434);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(198, 340);
+            this.panel3.TabIndex = 5;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Panel1.Controls.Add(this.panel3);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox8);
+            this.guna2Panel1.Controls.Add(this.label9);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox7);
+            this.guna2Panel1.Controls.Add(this.label8);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel1.Location = new System.Drawing.Point(1227, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Depth = 20;
+            this.guna2Panel1.ShadowDecoration.Enabled = true;
+            this.guna2Panel1.Size = new System.Drawing.Size(198, 778);
+            this.guna2Panel1.TabIndex = 17;
+            // 
+            // new11
+            // 
+            this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.new11.Location = new System.Drawing.Point(198, 6);
+            this.new11.Name = "new11";
+            this.new11.Size = new System.Drawing.Size(1023, 778);
+            this.new11.TabIndex = 18;
+            // 
+            // bookingDash1
+            // 
+            this.bookingDash1.Location = new System.Drawing.Point(198, 6);
+            this.bookingDash1.Name = "bookingDash1";
+            this.bookingDash1.Size = new System.Drawing.Size(1024, 778);
+            this.bookingDash1.TabIndex = 19;
+            // 
+            // inventoryr1
+            // 
+            this.inventoryr1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.inventoryr1.Location = new System.Drawing.Point(198, 6);
+            this.inventoryr1.Name = "inventoryr1";
+            this.inventoryr1.Size = new System.Drawing.Size(1024, 778);
+            this.inventoryr1.TabIndex = 20;
+            // 
+            // reset_settings1
+            // 
+            this.reset_settings1.Location = new System.Drawing.Point(198, 6);
+            this.reset_settings1.Name = "reset_settings1";
+            this.reset_settings1.Size = new System.Drawing.Size(1023, 605);
+            this.reset_settings1.TabIndex = 21;
             // 
             // logoutbutton
             // 
@@ -258,63 +356,6 @@
             this.guna2PictureBox14.UseTransparentBackground = true;
             this.guna2PictureBox14.Click += new System.EventHandler(this.guna2PictureBox14_Click);
             // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(34, 96);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 41);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "PawPal";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Location = new System.Drawing.Point(1228, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(198, 340);
-            this.panel2.TabIndex = 6;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(87, 13);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 20);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Alerts";
-            // 
-            // guna2PictureBox7
-            // 
-            this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox7.Image = global::DogCareFormApp.Properties.Resources.bell_ring1;
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(62, 6);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.ShadowDecoration.BorderRadius = 3;
-            this.guna2PictureBox7.ShadowDecoration.Depth = 1;
-            this.guna2PictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2PictureBox7.Size = new System.Drawing.Size(20, 34);
-            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox7.TabIndex = 16;
-            this.guna2PictureBox7.TabStop = false;
-            this.guna2PictureBox7.UseTransparentBackground = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(29, 399);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(168, 20);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Upcoming Bookings";
-            // 
             // guna2PictureBox8
             // 
             this.guna2PictureBox8.BackColor = System.Drawing.Color.Transparent;
@@ -332,59 +373,36 @@
             this.guna2PictureBox8.UseTransparentBackground = true;
             this.guna2PictureBox8.Click += new System.EventHandler(this.guna2PictureBox8_Click);
             // 
-            // panel3
+            // guna2PictureBox7
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel3.Location = new System.Drawing.Point(0, 434);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(198, 340);
-            this.panel3.TabIndex = 5;
+            this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox7.Image = global::DogCareFormApp.Properties.Resources.bell_ring1;
+            this.guna2PictureBox7.ImageRotate = 0F;
+            this.guna2PictureBox7.Location = new System.Drawing.Point(62, 6);
+            this.guna2PictureBox7.Name = "guna2PictureBox7";
+            this.guna2PictureBox7.ShadowDecoration.BorderRadius = 3;
+            this.guna2PictureBox7.ShadowDecoration.Depth = 1;
+            this.guna2PictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2PictureBox7.Size = new System.Drawing.Size(20, 34);
+            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox7.TabIndex = 16;
+            this.guna2PictureBox7.TabStop = false;
+            this.guna2PictureBox7.UseTransparentBackground = true;
             // 
-            // guna2Panel1
+            // guna2Button1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2Panel1.Controls.Add(this.panel3);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox8);
-            this.guna2Panel1.Controls.Add(this.label9);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox7);
-            this.guna2Panel1.Controls.Add(this.label8);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel1.Location = new System.Drawing.Point(1227, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Depth = 20;
-            this.guna2Panel1.ShadowDecoration.Enabled = true;
-            this.guna2Panel1.Size = new System.Drawing.Size(198, 778);
-            this.guna2Panel1.TabIndex = 17;
-            // 
-            // new11
-            // 
-            this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.new11.Location = new System.Drawing.Point(198, 6);
-            this.new11.Name = "new11";
-            this.new11.Size = new System.Drawing.Size(1023, 778);
-            this.new11.TabIndex = 18;
-            // 
-            // bookingDash1
-            // 
-            this.bookingDash1.Location = new System.Drawing.Point(198, 6);
-            this.bookingDash1.Name = "bookingDash1";
-            this.bookingDash1.Size = new System.Drawing.Size(1024, 778);
-            this.bookingDash1.TabIndex = 19;
-            // 
-            // inventoryr1
-            // 
-            this.inventoryr1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.inventoryr1.Location = new System.Drawing.Point(198, 6);
-            this.inventoryr1.Name = "inventoryr1";
-            this.inventoryr1.Size = new System.Drawing.Size(1024, 778);
-            this.inventoryr1.TabIndex = 20;
-            // 
-            // reset_settings1
-            // 
-            this.reset_settings1.Location = new System.Drawing.Point(198, 6);
-            this.reset_settings1.Name = "reset_settings1";
-            this.reset_settings1.Size = new System.Drawing.Size(1023, 605);
-            this.reset_settings1.TabIndex = 21;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(8, 281);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 32;
+            this.guna2Button1.Text = "alert";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // Dashboard
             // 
@@ -410,11 +428,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -441,6 +460,7 @@
         private BookingDash bookingDash1;
         private Inventoryr inventoryr1;
         private reset_settings reset_settings1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
 

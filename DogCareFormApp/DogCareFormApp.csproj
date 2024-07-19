@@ -267,6 +267,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alert.Designer.cs">
+      <DependentUpon>alert.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookingDash.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -338,6 +344,9 @@
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
     <Compile Include="UserCredentials.cs" />
+    <EmbeddedResource Include="alert.resx">
+      <DependentUpon>alert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BookingDash.resx">
       <DependentUpon>BookingDash.cs</DependentUpon>
     </EmbeddedResource>
@@ -463,6 +472,13 @@
     <None Include="DogRegForm.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="alertdata.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="alertdata_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>alertdata.mdf</DependentUpon>
+    </Content>
     <Content Include="BookingDatabase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

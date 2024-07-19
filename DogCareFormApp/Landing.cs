@@ -12,6 +12,9 @@ namespace DogCareFormApp
 {
     public partial class Landing : Form
     {
+
+        private string storedUsername = "admin";
+        private string storedPassword = "admin";
         public Landing()
         {
             InitializeComponent();
@@ -39,8 +42,20 @@ namespace DogCareFormApp
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
+
+            string inputUsername = guna2TextBox1.Text;
+            string inputPassword = guna2TextBox2.Text;
+
+            // Validate the username and password
+            if (inputUsername == UserCredentials.Username && inputPassword == UserCredentials.Password)
+            {
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+            }
+            else
+            {
+                MessageBox.Show("Username or password is incorrect.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)

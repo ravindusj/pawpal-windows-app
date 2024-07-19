@@ -55,10 +55,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.reset_settings1 = new DogCareFormApp.reset_settings();
             this.new11 = new DogCareFormApp.New1();
             this.inventoryr = new DogCareFormApp.Inventoryr();
             this.bookingDash1 = new DogCareFormApp.BookingDash();
             this.bookingDash2 = new DogCareFormApp.BookingDash();
+            this.new12 = new DogCareFormApp.New1();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -154,6 +156,7 @@
             this.guna2Button4.TabIndex = 30;
             this.guna2Button4.Text = " Settings";
             this.guna2Button4.UseTransparentBackground = true;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // bookinbutton
             // 
@@ -280,10 +283,10 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Zolla", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(34, 96);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 46);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 41);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "PawPal";
             // 
@@ -543,6 +546,13 @@
             this.guna2PictureBox9.TabStop = false;
             this.guna2PictureBox9.UseTransparentBackground = true;
             // 
+            // reset_settings1
+            // 
+            this.reset_settings1.Location = new System.Drawing.Point(206, 8);
+            this.reset_settings1.Name = "reset_settings1";
+            this.reset_settings1.Size = new System.Drawing.Size(1007, 766);
+            this.reset_settings1.TabIndex = 29;
+            // 
             // new11
             // 
             this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -573,6 +583,14 @@
             this.bookingDash2.Size = new System.Drawing.Size(1021, 768);
             this.bookingDash2.TabIndex = 28;
             // 
+            // new12
+            // 
+            this.new12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.new12.Location = new System.Drawing.Point(194, 0);
+            this.new12.Name = "new12";
+            this.new12.Size = new System.Drawing.Size(1024, 778);
+            this.new12.TabIndex = 30;
+            // 
             // Dashboard
             // 
             this.AllowDrop = true;
@@ -580,6 +598,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1425, 778);
+            this.Controls.Add(this.new12);
+            this.Controls.Add(this.reset_settings1);
             this.Controls.Add(this.new11);
             this.Controls.Add(this.inventoryr);
             this.Controls.Add(this.panel2);
@@ -655,6 +675,8 @@
         private Inventoryr inventoryr;
         private New1 new11;
         private BookingDash bookingDash2;
+        private reset_settings reset_settings1;
+        private New1 new12;
     }
 }
 

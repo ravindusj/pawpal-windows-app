@@ -168,5 +168,10 @@ namespace DogCareFormApp
             form.Show();
 
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            reset_settings1.BringToFront();
+        }
     }
 }

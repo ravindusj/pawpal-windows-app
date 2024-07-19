@@ -273,6 +273,12 @@
     <Compile Include="alert.Designer.cs">
       <DependentUpon>alert.cs</DependentUpon>
     </Compile>
+    <Compile Include="alert1cs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="alert1cs.Designer.cs">
+      <DependentUpon>alert1cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookingDash.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -346,6 +352,9 @@
     <Compile Include="UserCredentials.cs" />
     <EmbeddedResource Include="alert.resx">
       <DependentUpon>alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alert1cs.resx">
+      <DependentUpon>alert1cs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookingDash.resx">
       <DependentUpon>BookingDash.cs</DependentUpon>
@@ -464,6 +473,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\dog %284%29.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\logindog.png" />
+    <None Include="Resources\clipboard-list.png" />
     <None Include="Resources\bell-ring1.png" />
     <None Include="Resources\bell.png" />
     <None Include="Resources\bone.png" />
@@ -497,6 +510,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DogRegForm.mdf</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

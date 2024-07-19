@@ -50,12 +50,15 @@ namespace DogCareFormApp
             if (inputUsername == UserCredentials.Username && inputPassword == UserCredentials.Password)
             {
                 Dashboard dashboard = new Dashboard();
+                
                 dashboard.Show();
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("Username or password is incorrect.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+          
         }
 
         private void label2_Click(object sender, EventArgs e)

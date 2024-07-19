@@ -63,6 +63,16 @@ namespace DogCareFormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add {
+            get {
+                object obj = ResourceManager.GetObject("add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bell {
             get {
                 object obj = ResourceManager.GetObject("bell", resourceCulture);
@@ -143,6 +153,16 @@ namespace DogCareFormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap clipboard_list {
+            get {
+                object obj = ResourceManager.GetObject("clipboard-list", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dashboard_panel {
             get {
                 object obj = ResourceManager.GetObject("dashboard-panel", resourceCulture);
@@ -183,6 +203,16 @@ namespace DogCareFormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dog__4_ {
+            get {
+                object obj = ResourceManager.GetObject("dog (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap features {
             get {
                 object obj = ResourceManager.GetObject("features", resourceCulture);
@@ -196,6 +226,16 @@ namespace DogCareFormApp.Properties {
         internal static System.Drawing.Bitmap inbox_full__1_ {
             get {
                 object obj = ResourceManager.GetObject("inbox-full (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logindog {
+            get {
+                object obj = ResourceManager.GetObject("logindog", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

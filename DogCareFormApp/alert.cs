@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,7 +37,7 @@ namespace DogCareFormApp
             string label1 = textBox1.Text;
             string label2 = richTextBox1.Text;
 
-            if (label1 == "" || label2 == "" )
+            if (label1 == "" || label2 == "")
             {
                 MessageBox.Show("Please fill all the fields");
                 return;
@@ -44,7 +45,7 @@ namespace DogCareFormApp
             string Query = $"INSERT INTO [Table] (petID, alert) VALUES ('{label1}','{label2}')";
             SqlCommand cmd = new SqlCommand(Query, con1);
             {
-                try { con1.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Saved"); }
+                try { con1.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Alert Saved"); }
                 catch (Exception ex) { MessageBox.Show(ex.Message); }
                 finally
                 {
@@ -52,5 +53,11 @@ namespace DogCareFormApp
                 }
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
     }
 }

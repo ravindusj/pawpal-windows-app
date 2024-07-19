@@ -77,7 +77,7 @@
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(201, 243);
+            this.guna2Button1.Location = new System.Drawing.Point(156, 212);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 4;
@@ -95,7 +95,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "alert";
-            this.Text = "alert";
+            this.Text = "View";
             this.Load += new System.EventHandler(this.alert_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -23,5 +23,10 @@ namespace DogCareFormApp
             form.Show();
 
         }
+
+        private void regsiter1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

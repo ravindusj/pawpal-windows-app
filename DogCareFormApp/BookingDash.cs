@@ -56,5 +56,10 @@ namespace DogCareFormApp
                 con1.Close();
             }
         }
+
+        private void BookingDash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

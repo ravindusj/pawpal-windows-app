@@ -32,17 +32,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.new11 = new DogCareFormApp.New1();
-            this.bookingDash1 = new DogCareFormApp.BookingDash();
-            this.inventoryr1 = new DogCareFormApp.Inventoryr();
-            this.reset_settings1 = new DogCareFormApp.reset_settings();
             this.logoutbutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.bookinbutton = new Guna.UI2.WinForms.Guna2Button();
@@ -50,14 +39,25 @@
             this.dashbutton1 = new Guna.UI2.WinForms.Guna2Button();
             this.inventorybutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.new11 = new DogCareFormApp.New1();
+            this.bookingDash1 = new DogCareFormApp.BookingDash();
+            this.inventoryr1 = new DogCareFormApp.Inventoryr();
+            this.reset_settings1 = new DogCareFormApp.reset_settings();
             this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             this.SuspendLayout();
@@ -87,155 +87,6 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(191, 778);
             this.guna2GradientPanel1.TabIndex = 2;
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint_1);
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Zolla", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(34, 96);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 46);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "PawPal";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Controls.Add(this.guna2DataGridView1);
-            this.panel2.Location = new System.Drawing.Point(1228, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(198, 340);
-            this.panel2.TabIndex = 6;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // guna2DataGridView1
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(4, 3);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(193, 272);
-            this.guna2DataGridView1.TabIndex = 0;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(87, 13);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 20);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Alerts";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(29, 399);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(168, 20);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Upcoming Bookings";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel3.Location = new System.Drawing.Point(0, 434);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(198, 344);
-            this.panel3.TabIndex = 5;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2Panel1.Controls.Add(this.panel3);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox8);
-            this.guna2Panel1.Controls.Add(this.label9);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox7);
-            this.guna2Panel1.Controls.Add(this.label8);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel1.Location = new System.Drawing.Point(1227, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Depth = 20;
-            this.guna2Panel1.ShadowDecoration.Enabled = true;
-            this.guna2Panel1.Size = new System.Drawing.Size(198, 778);
-            this.guna2Panel1.TabIndex = 17;
-            // 
-            // new11
-            // 
-            this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.new11.Location = new System.Drawing.Point(198, 6);
-            this.new11.Name = "new11";
-            this.new11.Size = new System.Drawing.Size(1023, 778);
-            this.new11.TabIndex = 18;
-            // 
-            // bookingDash1
-            // 
-            this.bookingDash1.Location = new System.Drawing.Point(198, 6);
-            this.bookingDash1.Name = "bookingDash1";
-            this.bookingDash1.Size = new System.Drawing.Size(1024, 778);
-            this.bookingDash1.TabIndex = 19;
-            // 
-            // inventoryr1
-            // 
-            this.inventoryr1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.inventoryr1.Location = new System.Drawing.Point(198, 6);
-            this.inventoryr1.Name = "inventoryr1";
-            this.inventoryr1.Size = new System.Drawing.Size(1024, 778);
-            this.inventoryr1.TabIndex = 20;
-            // 
-            // reset_settings1
-            // 
-            this.reset_settings1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.reset_settings1.Location = new System.Drawing.Point(198, 6);
-            this.reset_settings1.Name = "reset_settings1";
-            this.reset_settings1.Size = new System.Drawing.Size(1023, 605);
-            this.reset_settings1.TabIndex = 21;
             // 
             // logoutbutton
             // 
@@ -416,12 +267,130 @@
             this.guna2PictureBox14.UseTransparentBackground = true;
             this.guna2PictureBox14.Click += new System.EventHandler(this.guna2PictureBox14_Click);
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Zolla", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(34, 96);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 46);
+            this.guna2HtmlLabel1.TabIndex = 0;
+            this.guna2HtmlLabel1.Text = "PawPal";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel2.Controls.Add(this.guna2DataGridView1);
+            this.panel2.Controls.Add(this.guna2Button1);
+            this.panel2.Location = new System.Drawing.Point(1228, 46);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(198, 340);
+            this.panel2.TabIndex = 6;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // guna2DataGridView1
+            // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.guna2DataGridView1.ColumnHeadersHeight = 4;
+            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.Location = new System.Drawing.Point(4, 3);
+            this.guna2DataGridView1.Name = "guna2DataGridView1";
+            this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.Size = new System.Drawing.Size(193, 272);
+            this.guna2DataGridView1.TabIndex = 0;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
+            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(50, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(124, 30);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Recent Alerts";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(21, 397);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(181, 30);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Upcoming Bookings";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel3.Location = new System.Drawing.Point(0, 434);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(198, 344);
+            this.panel3.TabIndex = 5;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Panel1.Controls.Add(this.panel3);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox8);
+            this.guna2Panel1.Controls.Add(this.label9);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox7);
+            this.guna2Panel1.Controls.Add(this.label8);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel1.Location = new System.Drawing.Point(1227, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Depth = 20;
+            this.guna2Panel1.ShadowDecoration.Enabled = true;
+            this.guna2Panel1.Size = new System.Drawing.Size(198, 778);
+            this.guna2Panel1.TabIndex = 17;
+            // 
             // guna2PictureBox8
             // 
             this.guna2PictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox8.Image = global::DogCareFormApp.Properties.Resources.booking2;
             this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(9, 393);
+            this.guna2PictureBox8.Location = new System.Drawing.Point(5, 394);
             this.guna2PictureBox8.Name = "guna2PictureBox8";
             this.guna2PictureBox8.ShadowDecoration.BorderRadius = 3;
             this.guna2PictureBox8.ShadowDecoration.Depth = 1;
@@ -438,7 +407,7 @@
             this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox7.Image = global::DogCareFormApp.Properties.Resources.bell_ring1;
             this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(62, 6);
+            this.guna2PictureBox7.Location = new System.Drawing.Point(28, 6);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.ShadowDecoration.BorderRadius = 3;
             this.guna2PictureBox7.ShadowDecoration.Depth = 1;
@@ -448,6 +417,7 @@
             this.guna2PictureBox7.TabIndex = 16;
             this.guna2PictureBox7.TabStop = false;
             this.guna2PictureBox7.UseTransparentBackground = true;
+            this.guna2PictureBox7.Click += new System.EventHandler(this.guna2PictureBox7_Click);
             // 
             // guna2Button1
             // 
@@ -463,13 +433,45 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::DogCareFormApp.Properties.Resources.add;
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(154, 8);
+            this.guna2Button1.Location = new System.Drawing.Point(15, 293);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.Color.Empty;
             this.guna2Button1.Size = new System.Drawing.Size(32, 29);
             this.guna2Button1.TabIndex = 32;
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
+            // 
+            // new11
+            // 
+            this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.new11.Location = new System.Drawing.Point(198, 6);
+            this.new11.Name = "new11";
+            this.new11.Size = new System.Drawing.Size(1023, 778);
+            this.new11.TabIndex = 18;
+            // 
+            // bookingDash1
+            // 
+            this.bookingDash1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.bookingDash1.Location = new System.Drawing.Point(198, 6);
+            this.bookingDash1.Name = "bookingDash1";
+            this.bookingDash1.Size = new System.Drawing.Size(1024, 778);
+            this.bookingDash1.TabIndex = 19;
+            // 
+            // inventoryr1
+            // 
+            this.inventoryr1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.inventoryr1.Location = new System.Drawing.Point(198, 6);
+            this.inventoryr1.Name = "inventoryr1";
+            this.inventoryr1.Size = new System.Drawing.Size(1024, 778);
+            this.inventoryr1.TabIndex = 20;
+            // 
+            // reset_settings1
+            // 
+            this.reset_settings1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.reset_settings1.Location = new System.Drawing.Point(198, 6);
+            this.reset_settings1.Name = "reset_settings1";
+            this.reset_settings1.Size = new System.Drawing.Size(1023, 605);
+            this.reset_settings1.TabIndex = 21;
             // 
             // Dashboard
             // 
@@ -496,11 +498,11 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             this.ResumeLayout(false);

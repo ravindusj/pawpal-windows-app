@@ -123,6 +123,26 @@ namespace DogCareFormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap book_open_cover {
+            get {
+                object obj = ResourceManager.GetObject("book-open-cover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_open_cover__1_ {
+            get {
+                object obj = ResourceManager.GetObject("book-open-cover (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap booking {
             get {
                 object obj = ResourceManager.GetObject("booking", resourceCulture);
@@ -276,6 +296,16 @@ namespace DogCareFormApp.Properties {
         internal static System.Drawing.Bitmap settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_sliders {
+            get {
+                object obj = ResourceManager.GetObject("settings-sliders", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -28,5 +28,10 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void New1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

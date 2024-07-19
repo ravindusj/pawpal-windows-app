@@ -32,24 +32,24 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.creditLbl = new System.Windows.Forms.Label();
-            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.creditLbl = new System.Windows.Forms.Label();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.regsiter1 = new DogCareFormApp.Regsiter();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
             this.guna2CustomGradientPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,6 +110,19 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(990, 52);
             this.guna2CustomGradientPanel1.TabIndex = 27;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.bone;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(40, 17);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(21, 20);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 30;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BackColor = System.Drawing.Color.Transparent;
@@ -129,6 +142,20 @@
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(289, 197);
             this.guna2CustomGradientPanel4.TabIndex = 28;
             // 
+            // guna2PictureBox11
+            // 
+            this.guna2PictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox11.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox11.Image = global::DogCareFormApp.Properties.Resources.dog;
+            this.guna2PictureBox11.ImageRotate = 0F;
+            this.guna2PictureBox11.Location = new System.Drawing.Point(32, 25);
+            this.guna2PictureBox11.Name = "guna2PictureBox11";
+            this.guna2PictureBox11.Size = new System.Drawing.Size(327, 228);
+            this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox11.TabIndex = 25;
+            this.guna2PictureBox11.TabStop = false;
+            this.guna2PictureBox11.UseTransparentBackground = true;
+            // 
             // guna2CustomGradientPanel2
             // 
             this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.Transparent;
@@ -145,6 +172,20 @@
             this.guna2CustomGradientPanel2.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 2, 2);
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(289, 197);
             this.guna2CustomGradientPanel2.TabIndex = 29;
+            // 
+            // guna2PictureBox12
+            // 
+            this.guna2PictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox12.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox12.Image = global::DogCareFormApp.Properties.Resources.dog__2_;
+            this.guna2PictureBox12.ImageRotate = 0F;
+            this.guna2PictureBox12.Location = new System.Drawing.Point(81, 35);
+            this.guna2PictureBox12.Name = "guna2PictureBox12";
+            this.guna2PictureBox12.Size = new System.Drawing.Size(300, 200);
+            this.guna2PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox12.TabIndex = 26;
+            this.guna2PictureBox12.TabStop = false;
+            this.guna2PictureBox12.UseTransparentBackground = true;
             // 
             // guna2CustomGradientPanel3
             // 
@@ -163,16 +204,6 @@
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(289, 197);
             this.guna2CustomGradientPanel3.TabIndex = 27;
             // 
-            // creditLbl
-            // 
-            this.creditLbl.AutoSize = true;
-            this.creditLbl.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creditLbl.Location = new System.Drawing.Point(644, 746);
-            this.creditLbl.Name = "creditLbl";
-            this.creditLbl.Size = new System.Drawing.Size(374, 28);
-            this.creditLbl.TabIndex = 31;
-            this.creditLbl.Text = "© 2024 Group X C# Project. All rights reserved.";
-            // 
             // guna2PictureBox13
             // 
             this.guna2PictureBox13.BackColor = System.Drawing.Color.Transparent;
@@ -187,46 +218,15 @@
             this.guna2PictureBox13.TabStop = false;
             this.guna2PictureBox13.UseTransparentBackground = true;
             // 
-            // guna2PictureBox12
+            // creditLbl
             // 
-            this.guna2PictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox12.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox12.Image = global::DogCareFormApp.Properties.Resources.dog__2_;
-            this.guna2PictureBox12.ImageRotate = 0F;
-            this.guna2PictureBox12.Location = new System.Drawing.Point(81, 35);
-            this.guna2PictureBox12.Name = "guna2PictureBox12";
-            this.guna2PictureBox12.Size = new System.Drawing.Size(300, 200);
-            this.guna2PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox12.TabIndex = 26;
-            this.guna2PictureBox12.TabStop = false;
-            this.guna2PictureBox12.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox11
-            // 
-            this.guna2PictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox11.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox11.Image = global::DogCareFormApp.Properties.Resources.dog;
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(32, 25);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.Size = new System.Drawing.Size(327, 228);
-            this.guna2PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox11.TabIndex = 25;
-            this.guna2PictureBox11.TabStop = false;
-            this.guna2PictureBox11.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.bone;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(40, 17);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(21, 20);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 30;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.creditLbl.AutoSize = true;
+            this.creditLbl.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creditLbl.Location = new System.Drawing.Point(644, 746);
+            this.creditLbl.Name = "creditLbl";
+            this.creditLbl.Size = new System.Drawing.Size(374, 28);
+            this.creditLbl.TabIndex = 31;
+            this.creditLbl.Text = "© 2024 Group X C# Project. All rights reserved.";
             // 
             // guna2PictureBox10
             // 
@@ -268,15 +268,16 @@
             this.Controls.Add(this.guna2TextBox1);
             this.Name = "New1";
             this.Size = new System.Drawing.Size(1172, 778);
+            this.Load += new System.EventHandler(this.New1_Load);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

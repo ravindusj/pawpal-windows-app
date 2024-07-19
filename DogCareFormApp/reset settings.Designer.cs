@@ -41,8 +41,11 @@
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -151,7 +154,7 @@
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(1, 65);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 65);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Quality = 50;
             this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 20;
@@ -193,14 +196,58 @@
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Animated = true;
+            this.guna2TextBox1.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.guna2TextBox1.BorderRadius = 4;
+            this.guna2TextBox1.BorderThickness = 2;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Poppins Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkOrange;
+            this.guna2TextBox1.Location = new System.Drawing.Point(646, 9);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2TextBox1.PlaceholderText = "Type here to search anything.\r\n\r\n";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(358, 34);
+            this.guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.guna2TextBox1.TabIndex = 86;
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox10.Image = global::DogCareFormApp.Properties.Resources.search;
+            this.guna2PictureBox10.ImageRotate = 0F;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(633, 13);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.ShadowDecoration.BorderRadius = 3;
+            this.guna2PictureBox10.ShadowDecoration.Depth = 1;
+            this.guna2PictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2PictureBox10.Size = new System.Drawing.Size(17, 25);
+            this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox10.TabIndex = 87;
+            this.guna2PictureBox10.TabStop = false;
+            this.guna2PictureBox10.UseTransparentBackground = true;
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.user_skill_gear;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.settings_sliders;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(36, 12);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(39, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(24, 30);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 33);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 30;
             this.guna2PictureBox1.TabStop = false;
@@ -211,6 +258,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.guna2PictureBox10);
+            this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label6);
@@ -227,6 +276,7 @@
             this.Size = new System.Drawing.Size(1024, 778);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -248,5 +298,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

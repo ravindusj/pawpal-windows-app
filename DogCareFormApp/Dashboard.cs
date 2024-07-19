@@ -217,5 +217,10 @@ namespace DogCareFormApp
         {
         
         }
+
+        private void guna2PictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -482,6 +482,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\play-with-pet %284%29.png" />
     <None Include="Resources\plus-small.png" />
     <None Include="Resources\light-emergency-on.png" />
     <None Include="Resources\logo.png" />

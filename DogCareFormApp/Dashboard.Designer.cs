@@ -351,11 +351,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(40, 11);
+            this.label8.Location = new System.Drawing.Point(28, 10);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 30);
+            this.label8.Size = new System.Drawing.Size(152, 30);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Recent Alerts";
+            this.label8.Text = "Upcoming Alerts";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
@@ -365,9 +365,9 @@
             this.label9.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(28, 398);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(153, 30);
+            this.label9.Size = new System.Drawing.Size(152, 30);
             this.label9.TabIndex = 19;
-            this.label9.Text = "Recent Bookings";
+            this.label9.Text = "Upnext Bookings";
             // 
             // panel3
             // 
@@ -428,7 +428,7 @@
             this.guna2Button1.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button1.Image = global::DogCareFormApp.Properties.Resources.plus_small;
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(161, 14);
+            this.guna2Button1.Location = new System.Drawing.Point(177, 14);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button1.ShadowDecoration.BorderRadius = 0;
@@ -459,7 +459,7 @@
             this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox7.Image = global::DogCareFormApp.Properties.Resources.light_emergency_on;
             this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(20, 6);
+            this.guna2PictureBox7.Location = new System.Drawing.Point(9, 6);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.ShadowDecoration.BorderRadius = 3;
             this.guna2PictureBox7.ShadowDecoration.Depth = 1;

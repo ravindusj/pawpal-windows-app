@@ -482,6 +482,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dog_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Dog.mdf</DependentUpon>
+    </Content>
     <None Include="Resources\play-with-pet %284%29.png" />
     <None Include="Resources\plus-small.png" />
     <None Include="Resources\light-emergency-on.png" />
@@ -528,6 +532,9 @@
     <Content Include="Database1_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Dog.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="DogRegForm_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

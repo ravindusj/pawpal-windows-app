@@ -11,6 +11,8 @@ namespace DogCareFormApp
     public partial class Regsiter : UserControl
     {
         private string savedFilePath;
+        SqlConnection con3 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\Dog.mdf;Integrated Security=True");
+
 
         public Regsiter()
         {
@@ -374,7 +376,7 @@ namespace DogCareFormApp
             {
                 MessageBox.Show("An unexpected error occurred: " + ex.Message);
             }
-    }
+        }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
@@ -390,5 +392,48 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            string dogname =DogName.Text;
+            string dogbreed = DogBreed.Text;
+            string dogage = DogAge.Text;
+            string doggender = DogGender.Text;
+            string ownerid = OwnerId.Text;
+            string ownername = OwnerName.Text;
+            string ownercontact = OwnerContact.Text;
+            string owneraddress = OwnerAddress.Text;
+            string owneremail = OwnerEmail.Text;
+
+
+            if (dogname == "" || dogbreed == "" || dogage == "" || doggender == "" || ownerid == "" || ownername == "" || ownercontact == "" || owneraddress == "" || owneremail == "")    
+            {
+                MessageBox.Show("Please fill all the fields");
+                return;
+            }
+            string Query = $"INSERT INTO Dog (DogName, DogBreed, DogAge, DogGender) VALUES ('{dogname}','{dogbreed}','{dogage}','{doggender}')";
+            string Query2 = $"INSERT INTO DogOwner (OwnerId, OwnerName, OwnerContact, OwnerAddress, OwnerEmail) VALUES ('{ownerid}','{ownername}','{ownercontact}','{owneraddress}','{owneremail}')";
+            SqlCommand cmd = new SqlCommand(Query, con3);
+            {
+                try { con3.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Saved"); }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
+                finally
+                {
+                    con3.Close();
+                }
+            }
+            SqlCommand cmd2 = new SqlCommand(Query2, con3);
+            {
+                try { con3.Open(); cmd2.ExecuteNonQuery(); }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
+                finally
+                {
+                    con3.Close();
+                }
+            }
+        }
+
     }
 }
+
+

@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.savechanges = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -42,11 +43,10 @@
             this.CurrentPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.NewPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(261, 201);
+            this.label6.Location = new System.Drawing.Point(315, 201);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 28);
             this.label6.TabIndex = 33;
@@ -65,7 +65,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(293, 348);
+            this.label4.Location = new System.Drawing.Point(347, 348);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(133, 28);
             this.label4.TabIndex = 27;
@@ -76,7 +76,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(267, 297);
+            this.label3.Location = new System.Drawing.Point(321, 297);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 28);
             this.label3.TabIndex = 26;
@@ -87,7 +87,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(286, 249);
+            this.label2.Location = new System.Drawing.Point(340, 249);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 28);
             this.label2.TabIndex = 25;
@@ -121,6 +121,19 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(990, 52);
             this.guna2CustomGradientPanel1.TabIndex = 35;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.settings_sliders;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(39, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 33);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 30;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -146,7 +159,7 @@
             this.savechanges.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold);
             this.savechanges.ForeColor = System.Drawing.Color.Black;
             this.savechanges.HoverState.FillColor = System.Drawing.Color.White;
-            this.savechanges.Location = new System.Drawing.Point(612, 435);
+            this.savechanges.Location = new System.Drawing.Point(437, 428);
             this.savechanges.Name = "savechanges";
             this.savechanges.Size = new System.Drawing.Size(151, 43);
             this.savechanges.TabIndex = 36;
@@ -198,7 +211,7 @@
             this.CurrentUsername.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.CurrentUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CurrentUsername.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.CurrentUsername.Location = new System.Drawing.Point(449, 198);
+            this.CurrentUsername.Location = new System.Drawing.Point(503, 198);
             this.CurrentUsername.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.CurrentUsername.Name = "CurrentUsername";
             this.CurrentUsername.PasswordChar = '\0';
@@ -223,7 +236,7 @@
             this.NewUsername.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.NewUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.NewUsername.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.NewUsername.Location = new System.Drawing.Point(449, 246);
+            this.NewUsername.Location = new System.Drawing.Point(503, 246);
             this.NewUsername.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.NewUsername.Name = "NewUsername";
             this.NewUsername.PasswordChar = '\0';
@@ -248,7 +261,7 @@
             this.CurrentPassword.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.CurrentPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CurrentPassword.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.CurrentPassword.Location = new System.Drawing.Point(449, 294);
+            this.CurrentPassword.Location = new System.Drawing.Point(503, 294);
             this.CurrentPassword.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.CurrentPassword.Name = "CurrentPassword";
             this.CurrentPassword.PasswordChar = '\0';
@@ -273,7 +286,7 @@
             this.NewPassword.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.NewPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.NewPassword.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.NewPassword.Location = new System.Drawing.Point(449, 345);
+            this.NewPassword.Location = new System.Drawing.Point(503, 345);
             this.NewPassword.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.NewPassword.Name = "NewPassword";
             this.NewPassword.PasswordChar = '\0';
@@ -298,27 +311,14 @@
             this.guna2PictureBox10.TabStop = false;
             this.guna2PictureBox10.UseTransparentBackground = true;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.settings_sliders;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(39, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 33);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 30;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::DogCareFormApp.Properties.Resources.play_with_pet__4_;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(3, 403);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(3, 486);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(558, 393);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(457, 310);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 93;
             this.guna2PictureBox2.TabStop = false;
@@ -347,8 +347,8 @@
             this.Size = new System.Drawing.Size(1024, 778);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

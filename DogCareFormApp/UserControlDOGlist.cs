@@ -13,75 +13,37 @@ namespace DogCareFormApp
 {
     public partial class UserControlDOGlist : UserControl
     {
-        string con1 = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\source\pawpal-formApp\DogCareFormApp\DogRegForm.mdf;Integrated Security=True";
-        SqlConnection sqlCon;
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\Dog.mdf;Integrated Security=True");
 
 
         public UserControlDOGlist()
         {
             InitializeComponent();
-            sqlCon = new SqlConnection(con1);
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                using (SqlConnection sqlCon = new SqlConnection(con1))
-                {
-                    sqlCon.Open();
-                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM Dog", sqlCon);
-                    DataTable dataTable = new DataTable();
-                    sqlDa.Fill(dataTable);
-
-                    guna2DataGridView1.DataSource = dataTable;
-                }
-            }
-            catch (SqlException ex)
-            {
-                // Handle SQL exceptions here
-                MessageBox.Show("An error occurred while accessing the database: " + ex.Message);
-            }
-            catch (Exception ex)
-            {
-                // Handle other potential exceptions here
-                MessageBox.Show("An unexpected error occurred: " + ex.Message);
-
-            }
-        }
-
-        private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             try
             {
-                using (SqlConnection sqlCon = new SqlConnection(con1))
                 {
-                    sqlCon.Open();
-                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM Dog", sqlCon);
+                    con1.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM Dog", con1);
                     DataTable dataTable = new DataTable();
                     sqlDa.Fill(dataTable);
-
                     guna2DataGridView1.DataSource = dataTable;
                 }
             }
-            catch (SqlException ex)
-            {
-                // Handle SQL exceptions here
-                MessageBox.Show("An error occurred while accessing the database: " + ex.Message);
-            }
             catch (Exception ex)
             {
-                // Handle other potential exceptions here
-                MessageBox.Show("An unexpected error occurred: " + ex.Message);
-
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        
 
-    }
+            finally
+            {
+                con1.Close();
+            }
+
+
+        }
 }
 }

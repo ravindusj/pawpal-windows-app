@@ -14,6 +14,8 @@ namespace DogCareFormApp
     public partial class Dashboard : Form
     {
         SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\source\pawpal-formApp\DogCareFormApp\alertdata.mdf;Integrated Security=True");
+        SqlConnection con2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
+
 
         public Dashboard()
         {
@@ -263,7 +265,7 @@ namespace DogCareFormApp
             {
                 {
                     con1.Open();
-                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM [Table]", con1);
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT PetID,Alert FROM [Table]", con1);
                     DataTable dataTable = new DataTable();
                     sqlDa.Fill(dataTable);
                     guna2DataGridView1.DataSource = dataTable;
@@ -283,12 +285,31 @@ namespace DogCareFormApp
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
+            try
+            {
+                {
+                    con2.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT petID,date FROM [Table]", con2);
+                    DataTable dataTable = new DataTable();
+                    sqlDa.Fill(dataTable);
+                    guna2DataGridView2.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
+            finally
+            {
+                con2.Close();
+            }
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             userControlDOGlist1.BringToFront();
         }
+
     }
 }

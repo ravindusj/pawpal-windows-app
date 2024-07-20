@@ -349,6 +349,12 @@
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlDOGlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlDOGlist.Designer.cs">
+      <DependentUpon>UserControlDOGlist.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserCredentials.cs" />
     <EmbeddedResource Include="alert.resx">
       <DependentUpon>alert.cs</DependentUpon>
@@ -398,6 +404,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="settings.resx">
       <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlDOGlist.resx">
+      <DependentUpon>UserControlDOGlist.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

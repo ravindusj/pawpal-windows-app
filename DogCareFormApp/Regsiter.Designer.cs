@@ -68,8 +68,9 @@
             this.OwnerEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.OwnerEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.OwnerEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.OwnerEmail.FocusedState.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.OwnerEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.OwnerEmail.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OwnerEmail.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.OwnerEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.OwnerEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerEmail.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -101,7 +102,9 @@
             this.DogGender.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.DogGender.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.DogGender.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DogGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DogGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.DogGender.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DogGender.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.DogGender.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.DogGender.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogGender.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -123,7 +126,9 @@
             this.DogBreed.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.DogBreed.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.DogBreed.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DogBreed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DogBreed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.DogBreed.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DogBreed.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.DogBreed.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.DogBreed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogBreed.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -145,7 +150,9 @@
             this.DogAge.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.DogAge.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.DogAge.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DogAge.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DogAge.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.DogAge.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DogAge.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.DogAge.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.DogAge.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogAge.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -156,6 +163,7 @@
             this.DogAge.SelectedText = "";
             this.DogAge.Size = new System.Drawing.Size(206, 23);
             this.DogAge.TabIndex = 75;
+            this.DogAge.TextChanged += new System.EventHandler(this.DogAge_TextChanged);
             // 
             // DogName
             // 
@@ -167,7 +175,9 @@
             this.DogName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.DogName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.DogName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DogName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DogName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.DogName.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DogName.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.DogName.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.DogName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogName.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -251,7 +261,9 @@
             this.OwnerAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.OwnerAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.OwnerAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.OwnerAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.OwnerAddress.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OwnerAddress.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.OwnerAddress.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.OwnerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerAddress.HoverState.FillColor = System.Drawing.SystemColors.ActiveCaption;
@@ -273,7 +285,9 @@
             this.OwnerName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.OwnerName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.OwnerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.OwnerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.OwnerName.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OwnerName.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.OwnerName.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.OwnerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerName.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -296,7 +310,9 @@
             this.OwnerContact.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.OwnerContact.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerContact.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.OwnerContact.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.OwnerContact.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.OwnerContact.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OwnerContact.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.OwnerContact.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.OwnerContact.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerContact.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -320,8 +336,8 @@
             this.OwnerId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.OwnerId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.OwnerId.FocusedState.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.OwnerId.FocusedState.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.OwnerId.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OwnerId.FocusedState.ForeColor = System.Drawing.Color.Black;
             this.OwnerId.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.OwnerId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerId.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.logoutbutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
@@ -54,6 +54,7 @@
             this.bookingDash1 = new DogCareFormApp.BookingDash();
             this.inventoryr1 = new DogCareFormApp.Inventoryr();
             this.reset_settings1 = new DogCareFormApp.reset_settings();
+            this.userControlDOGlist1 = new DogCareFormApp.UserControlDOGlist();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -199,6 +200,7 @@
             this.guna2Button3.TabIndex = 29;
             this.guna2Button3.Text = "Dogs-List";
             this.guna2Button3.UseTransparentBackground = true;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // dashbutton1
             // 
@@ -294,27 +296,27 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridView1.ColumnHeadersHeight = 4;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle9;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(4, 3);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
@@ -349,7 +351,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(40, 9);
+            this.label8.Location = new System.Drawing.Point(40, 11);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(124, 30);
             this.label8.TabIndex = 18;
@@ -361,7 +363,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(29, 398);
+            this.label9.Location = new System.Drawing.Point(28, 398);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(153, 30);
             this.label9.TabIndex = 19;
@@ -405,7 +407,7 @@
             this.guna2Button2.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button2.Image = global::DogCareFormApp.Properties.Resources.plus_small;
             this.guna2Button2.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button2.Location = new System.Drawing.Point(177, 403);
+            this.guna2Button2.Location = new System.Drawing.Point(177, 402);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.PressedColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button2.ShadowDecoration.BorderRadius = 0;
@@ -426,7 +428,7 @@
             this.guna2Button1.HoverState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button1.Image = global::DogCareFormApp.Properties.Resources.plus_small;
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(161, 13);
+            this.guna2Button1.Location = new System.Drawing.Point(161, 14);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.PressedColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.guna2Button1.ShadowDecoration.BorderRadius = 0;
@@ -440,7 +442,7 @@
             this.guna2PictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox8.Image = global::DogCareFormApp.Properties.Resources.booking2;
             this.guna2PictureBox8.ImageRotate = 0F;
-            this.guna2PictureBox8.Location = new System.Drawing.Point(11, 394);
+            this.guna2PictureBox8.Location = new System.Drawing.Point(9, 394);
             this.guna2PictureBox8.Name = "guna2PictureBox8";
             this.guna2PictureBox8.ShadowDecoration.BorderRadius = 3;
             this.guna2PictureBox8.ShadowDecoration.Depth = 1;
@@ -457,7 +459,7 @@
             this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox7.Image = global::DogCareFormApp.Properties.Resources.light_emergency_on;
             this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(20, 5);
+            this.guna2PictureBox7.Location = new System.Drawing.Point(20, 6);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.ShadowDecoration.BorderRadius = 3;
             this.guna2PictureBox7.ShadowDecoration.Depth = 1;
@@ -472,9 +474,9 @@
             // new11
             // 
             this.new11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.new11.Location = new System.Drawing.Point(198, 6);
+            this.new11.Location = new System.Drawing.Point(199, 6);
             this.new11.Name = "new11";
-            this.new11.Size = new System.Drawing.Size(1023, 778);
+            this.new11.Size = new System.Drawing.Size(1022, 784);
             this.new11.TabIndex = 18;
             // 
             // bookingDash1
@@ -501,6 +503,13 @@
             this.reset_settings1.Size = new System.Drawing.Size(1023, 605);
             this.reset_settings1.TabIndex = 21;
             // 
+            // userControlDOGlist1
+            // 
+            this.userControlDOGlist1.Location = new System.Drawing.Point(199, 4);
+            this.userControlDOGlist1.Name = "userControlDOGlist1";
+            this.userControlDOGlist1.Size = new System.Drawing.Size(1021, 684);
+            this.userControlDOGlist1.TabIndex = 22;
+            // 
             // Dashboard
             // 
             this.AllowDrop = true;
@@ -515,6 +524,7 @@
             this.Controls.Add(this.bookingDash1);
             this.Controls.Add(this.inventoryr1);
             this.Controls.Add(this.reset_settings1);
+            this.Controls.Add(this.userControlDOGlist1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.ImeMode = System.Windows.Forms.ImeMode.Katakana;
@@ -562,6 +572,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private UserControlDOGlist userControlDOGlist1;
     }
 }
 

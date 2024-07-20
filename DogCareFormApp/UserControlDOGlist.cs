@@ -49,5 +49,39 @@ namespace DogCareFormApp
 
             }
         }
+
+        private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (SqlConnection sqlCon = new SqlConnection(con1))
+                {
+                    sqlCon.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM Dog", sqlCon);
+                    DataTable dataTable = new DataTable();
+                    sqlDa.Fill(dataTable);
+
+                    guna2DataGridView1.DataSource = dataTable;
+                }
+            }
+            catch (SqlException ex)
+            {
+                // Handle SQL exceptions here
+                MessageBox.Show("An error occurred while accessing the database: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                // Handle other potential exceptions here
+                MessageBox.Show("An unexpected error occurred: " + ex.Message);
+
+            }
+        
+
     }
+}
 }

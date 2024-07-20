@@ -131,5 +131,63 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DT_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                {
+                    con2.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM [TableInt]", con2);
+                    DataTable dataTable = new DataTable();
+                    sqlDa.Fill(dataTable);
+                    guna2DataGridView4.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                con2.Close();
+            }
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            string ProductID = Product.Text;
+            string NOP = NOPT.Text;
+            string Cate = Category.Text;
+            string Quantity = Qt.Text;
+            string Date = DT.Text;
+            if (ProductID == "" || NOP == "" || Cate == "" || Quantity == "" || Date == "")
+            {
+                MessageBox.Show("Please fill all the fields");
+                return;
+            }
+            string Query = $"INSERT INTO TableInt (ProductID, NOP,Cate,Quantity,Date) VALUES ('{ProductID}','{NOP}','{Cate}','{Quantity}','{Date}')";
+            SqlCommand cmd = new SqlCommand(Query, con2);
+            {
+                try { con2.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Saved"); }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
+                finally
+                {
+                    con2.Close();
+                }
+            }
+        
+    }
     }
 }

@@ -28,57 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2DataGridView4 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.Product = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Category = new System.Windows.Forms.TextBox();
-            this.Qt = new System.Windows.Forms.TextBox();
-            this.NOPT = new System.Windows.Forms.TextBox();
-            this.DT = new System.Windows.Forms.TextBox();
             this.ProductID = new System.Windows.Forms.Label();
             this.Date = new System.Windows.Forms.Label();
             this.Cate = new System.Windows.Forms.Label();
             this.Quantity = new System.Windows.Forms.Label();
             this.NOP = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Product = new Guna.UI2.WinForms.Guna2TextBox();
+            this.NOPT = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Category = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Qt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DT = new Guna.UI2.WinForms.Guna2TextBox();
+            this.button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2DataGridView4
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.guna2DataGridView4.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.guna2DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.guna2DataGridView4.ColumnHeadersHeight = 70;
             this.guna2DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle18;
             this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView4.Location = new System.Drawing.Point(13, 298);
             this.guna2DataGridView4.Name = "guna2DataGridView4";
@@ -108,71 +108,11 @@
             this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.guna2DataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView4_CellContentClick);
             // 
-            // Product
-            // 
-            this.Product.Location = new System.Drawing.Point(263, 161);
-            this.Product.Name = "Product";
-            this.Product.Size = new System.Drawing.Size(100, 20);
-            this.Product.TabIndex = 55;
-            this.Product.TextChanged += new System.EventHandler(this.Product_TextChanged);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(880, 200);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 67;
-            this.button2.Text = "Data View*";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(880, 171);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 66;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // Category
-            // 
-            this.Category.Location = new System.Drawing.Point(263, 248);
-            this.Category.Name = "Category";
-            this.Category.Size = new System.Drawing.Size(100, 20);
-            this.Category.TabIndex = 65;
-            this.Category.TextChanged += new System.EventHandler(this.Category_TextChanged);
-            // 
-            // Qt
-            // 
-            this.Qt.Location = new System.Drawing.Point(665, 157);
-            this.Qt.Name = "Qt";
-            this.Qt.Size = new System.Drawing.Size(100, 20);
-            this.Qt.TabIndex = 64;
-            this.Qt.TextChanged += new System.EventHandler(this.Qt_TextChanged);
-            // 
-            // NOPT
-            // 
-            this.NOPT.Location = new System.Drawing.Point(263, 201);
-            this.NOPT.Name = "NOPT";
-            this.NOPT.Size = new System.Drawing.Size(100, 20);
-            this.NOPT.TabIndex = 63;
-            this.NOPT.TextChanged += new System.EventHandler(this.NOPT_TextChanged);
-            // 
-            // DT
-            // 
-            this.DT.Location = new System.Drawing.Point(665, 198);
-            this.DT.Name = "DT";
-            this.DT.Size = new System.Drawing.Size(100, 20);
-            this.DT.TabIndex = 62;
-            this.DT.TextChanged += new System.EventHandler(this.DT_TextChanged);
-            // 
             // ProductID
             // 
             this.ProductID.AutoSize = true;
             this.ProductID.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductID.Location = new System.Drawing.Point(63, 157);
+            this.ProductID.Location = new System.Drawing.Point(101, 144);
             this.ProductID.Name = "ProductID";
             this.ProductID.Size = new System.Drawing.Size(100, 28);
             this.ProductID.TabIndex = 61;
@@ -183,7 +123,7 @@
             // 
             this.Date.AutoSize = true;
             this.Date.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Date.Location = new System.Drawing.Point(465, 203);
+            this.Date.Location = new System.Drawing.Point(511, 196);
             this.Date.Name = "Date";
             this.Date.Size = new System.Drawing.Size(57, 28);
             this.Date.TabIndex = 60;
@@ -194,7 +134,7 @@
             // 
             this.Cate.AutoSize = true;
             this.Cate.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cate.Location = new System.Drawing.Point(63, 253);
+            this.Cate.Location = new System.Drawing.Point(107, 240);
             this.Cate.Name = "Cate";
             this.Cate.Size = new System.Drawing.Size(94, 28);
             this.Cate.TabIndex = 59;
@@ -205,7 +145,7 @@
             // 
             this.Quantity.AutoSize = true;
             this.Quantity.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quantity.Location = new System.Drawing.Point(465, 166);
+            this.Quantity.Location = new System.Drawing.Point(476, 146);
             this.Quantity.Name = "Quantity";
             this.Quantity.Size = new System.Drawing.Size(92, 28);
             this.Quantity.TabIndex = 58;
@@ -216,7 +156,7 @@
             // 
             this.NOP.AutoSize = true;
             this.NOP.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NOP.Location = new System.Drawing.Point(63, 206);
+            this.NOP.Location = new System.Drawing.Point(49, 192);
             this.NOP.Name = "NOP";
             this.NOP.Size = new System.Drawing.Size(152, 28);
             this.NOP.TabIndex = 57;
@@ -238,8 +178,21 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 20;
             this.guna2CustomGradientPanel1.ShadowDecoration.Enabled = true;
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 6, 6);
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(988, 52);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(990, 52);
             this.guna2CustomGradientPanel1.TabIndex = 83;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.inventory_alt;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(26, 15);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 22);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 19;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // label10
             // 
@@ -296,35 +249,193 @@
             this.guna2PictureBox10.TabStop = false;
             this.guna2PictureBox10.UseTransparentBackground = true;
             // 
-            // guna2PictureBox1
+            // Product
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.inventory_alt;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(26, 15);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 22);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 19;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.Product.Animated = true;
+            this.Product.BorderColor = System.Drawing.Color.Black;
+            this.Product.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Product.DefaultText = "";
+            this.Product.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Product.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Product.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Product.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Product.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Product.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Product.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.Product.Font = new System.Drawing.Font("Poppins Light", 9.75F);
+            this.Product.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Product.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Product.Location = new System.Drawing.Point(207, 141);
+            this.Product.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Product.Name = "Product";
+            this.Product.PasswordChar = '\0';
+            this.Product.PlaceholderText = "";
+            this.Product.SelectedText = "";
+            this.Product.Size = new System.Drawing.Size(206, 33);
+            this.Product.TabIndex = 88;
+            // 
+            // NOPT
+            // 
+            this.NOPT.Animated = true;
+            this.NOPT.BorderColor = System.Drawing.Color.Black;
+            this.NOPT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NOPT.DefaultText = "";
+            this.NOPT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.NOPT.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.NOPT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NOPT.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NOPT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.NOPT.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.NOPT.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.NOPT.Font = new System.Drawing.Font("Poppins Light", 9.75F);
+            this.NOPT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NOPT.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.NOPT.Location = new System.Drawing.Point(207, 189);
+            this.NOPT.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.NOPT.Name = "NOPT";
+            this.NOPT.PasswordChar = '\0';
+            this.NOPT.PlaceholderText = "";
+            this.NOPT.SelectedText = "";
+            this.NOPT.Size = new System.Drawing.Size(206, 33);
+            this.NOPT.TabIndex = 89;
+            // 
+            // Category
+            // 
+            this.Category.Animated = true;
+            this.Category.BorderColor = System.Drawing.Color.Black;
+            this.Category.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Category.DefaultText = "";
+            this.Category.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Category.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Category.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Category.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Category.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Category.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Category.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.Category.Font = new System.Drawing.Font("Poppins Light", 9.75F);
+            this.Category.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Category.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Category.Location = new System.Drawing.Point(207, 237);
+            this.Category.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Category.Name = "Category";
+            this.Category.PasswordChar = '\0';
+            this.Category.PlaceholderText = "";
+            this.Category.SelectedText = "";
+            this.Category.Size = new System.Drawing.Size(206, 33);
+            this.Category.TabIndex = 90;
+            this.Category.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
+            // 
+            // Qt
+            // 
+            this.Qt.Animated = true;
+            this.Qt.BorderColor = System.Drawing.Color.Black;
+            this.Qt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Qt.DefaultText = "";
+            this.Qt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Qt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Qt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Qt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Qt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.Qt.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Qt.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.Qt.Font = new System.Drawing.Font("Poppins Light", 9.75F);
+            this.Qt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Qt.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Qt.Location = new System.Drawing.Point(574, 144);
+            this.Qt.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Qt.Name = "Qt";
+            this.Qt.PasswordChar = '\0';
+            this.Qt.PlaceholderText = "";
+            this.Qt.SelectedText = "";
+            this.Qt.Size = new System.Drawing.Size(206, 33);
+            this.Qt.TabIndex = 91;
+            // 
+            // DT
+            // 
+            this.DT.Animated = true;
+            this.DT.BorderColor = System.Drawing.Color.Black;
+            this.DT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.DT.DefaultText = "";
+            this.DT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DT.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DT.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.DT.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DT.FocusedState.ForeColor = System.Drawing.Color.Black;
+            this.DT.Font = new System.Drawing.Font("Poppins Light", 9.75F);
+            this.DT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DT.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.DT.Location = new System.Drawing.Point(574, 193);
+            this.DT.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.DT.Name = "DT";
+            this.DT.PasswordChar = '\0';
+            this.DT.PlaceholderText = "";
+            this.DT.SelectedText = "";
+            this.DT.Size = new System.Drawing.Size(206, 33);
+            this.DT.TabIndex = 92;
+            this.DT.TextChanged += new System.EventHandler(this.DT_TextChanged_1);
+            // 
+            // button1
+            // 
+            this.button1.Animated = true;
+            this.button1.BorderRadius = 10;
+            this.button1.BorderThickness = 1;
+            this.button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button1.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.HoverState.FillColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(847, 226);
+            this.button1.Name = "button1";
+            this.button1.ShadowDecoration.BorderRadius = 10;
+            this.button1.ShadowDecoration.Color = System.Drawing.Color.IndianRed;
+            this.button1.Size = new System.Drawing.Size(112, 43);
+            this.button1.TabIndex = 93;
+            this.button1.Text = "Save";
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // button2
+            // 
+            this.button2.Animated = true;
+            this.button2.BorderRadius = 10;
+            this.button2.BorderThickness = 1;
+            this.button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button2.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.HoverState.FillColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(847, 177);
+            this.button2.Name = "button2";
+            this.button2.ShadowDecoration.BorderRadius = 10;
+            this.button2.ShadowDecoration.Color = System.Drawing.Color.IndianRed;
+            this.button2.Size = new System.Drawing.Size(112, 43);
+            this.button2.TabIndex = 94;
+            this.button2.Text = "View Data";
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Inventoryr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.DT);
+            this.Controls.Add(this.Qt);
+            this.Controls.Add(this.Category);
+            this.Controls.Add(this.NOPT);
+            this.Controls.Add(this.Product);
             this.Controls.Add(this.guna2PictureBox10);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.guna2DataGridView4);
-            this.Controls.Add(this.Product);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Category);
-            this.Controls.Add(this.Qt);
-            this.Controls.Add(this.NOPT);
-            this.Controls.Add(this.DT);
             this.Controls.Add(this.ProductID);
             this.Controls.Add(this.Date);
             this.Controls.Add(this.Cate);
@@ -335,8 +446,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,13 +456,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView4;
-        private System.Windows.Forms.TextBox Product;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox Category;
-        private System.Windows.Forms.TextBox Qt;
-        private System.Windows.Forms.TextBox NOPT;
-        private System.Windows.Forms.TextBox DT;
         private System.Windows.Forms.Label ProductID;
         private System.Windows.Forms.Label Date;
         private System.Windows.Forms.Label Cate;
@@ -362,5 +466,12 @@
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox Product;
+        private Guna.UI2.WinForms.Guna2TextBox NOPT;
+        private Guna.UI2.WinForms.Guna2TextBox Category;
+        private Guna.UI2.WinForms.Guna2TextBox Qt;
+        private Guna.UI2.WinForms.Guna2TextBox DT;
+        private Guna.UI2.WinForms.Guna2Button button1;
+        private Guna.UI2.WinForms.Guna2Button button2;
     }
 }

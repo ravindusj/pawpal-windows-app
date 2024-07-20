@@ -38,63 +38,80 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(84, 80);
+            this.label1.Font = new System.Drawing.Font("Poppins Light", 12F);
+            this.label1.Location = new System.Drawing.Point(42, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(72, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Pet ID";
+            this.label1.Text = "Pet ID - ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(153, 80);
+            this.textBox1.Location = new System.Drawing.Point(151, 45);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 20);
+            this.textBox1.Size = new System.Drawing.Size(200, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 126);
+            this.label2.Font = new System.Drawing.Font("Poppins Light", 12F);
+            this.label2.Location = new System.Drawing.Point(42, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(60, 28);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Alert";
+            this.label2.Text = "Alert -";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(153, 126);
+            this.richTextBox1.Location = new System.Drawing.Point(151, 113);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(245, 56);
+            this.richTextBox1.Size = new System.Drawing.Size(200, 28);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
             // 
             // guna2Button1
             // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(156, 212);
+            this.guna2Button1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 18F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2Button1.IndicateFocus = true;
+            this.guna2Button1.Location = new System.Drawing.Point(141, 207);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.PressedColor = System.Drawing.Color.DarkOrange;
+            this.guna2Button1.Size = new System.Drawing.Size(152, 47);
             this.guna2Button1.TabIndex = 4;
-            this.guna2Button1.Text = "add alert";
+            this.guna2Button1.Text = "Add Alert";
+            this.guna2Button1.TextOffset = new System.Drawing.Point(0, 3);
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // alert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(434, 293);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "alert";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "View";
             this.Load += new System.EventHandler(this.alert_Load);
             this.ResumeLayout(false);

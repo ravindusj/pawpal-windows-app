@@ -61,5 +61,11 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            InvoiceGen invoiceGen = new InvoiceGen();
+            invoiceGen.Show();
+        }
     }
 }

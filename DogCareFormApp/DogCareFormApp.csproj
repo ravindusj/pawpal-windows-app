@@ -473,6 +473,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\plus-small.png" />
+    <None Include="Resources\light-emergency-on.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\play-with-pet %283%29.png" />
+    <None Include="Resources\play-with-pet %282%29.png" />
+    <None Include="Resources\play-with-pet %281%29.png" />
+    <None Include="Resources\pet-care.png" />
+    <None Include="Resources\inventory-alt.png" />
     <None Include="Resources\settings-sliders.png" />
     <None Include="Resources\book-open-cover %281%29.png" />
     <None Include="Resources\book-open-cover.png" />

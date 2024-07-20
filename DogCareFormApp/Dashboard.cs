@@ -222,5 +222,68 @@ namespace DogCareFormApp
         {
 
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            alert form = new alert();
+            form.Show();
+
+            try
+            {
+                {
+                    con1.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM [Table]", con1);
+                    DataTable dataTable = new DataTable();
+                    sqlDa.Fill(dataTable);
+                    guna2DataGridView1.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                con1.Close();
+            }
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click_2(object sender, EventArgs e)
+        {
+            alert form = new alert();
+            form.Show();
+
+            try
+            {
+                {
+                    con1.Open();
+                    SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM [Table]", con1);
+                    DataTable dataTable = new DataTable();
+                    sqlDa.Fill(dataTable);
+                    guna2DataGridView1.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                con1.Close();
+            }
+        
+    }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

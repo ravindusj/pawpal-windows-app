@@ -44,14 +44,23 @@
             this.Cate = new System.Windows.Forms.Label();
             this.Quantity = new System.Windows.Forms.Label();
             this.NOP = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).BeginInit();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2DataGridView4
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.guna2DataGridView4.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.guna2DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,17 +80,17 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView4.Location = new System.Drawing.Point(105, 315);
+            this.guna2DataGridView4.Location = new System.Drawing.Point(13, 298);
             this.guna2DataGridView4.Name = "guna2DataGridView4";
             this.guna2DataGridView4.RowHeadersVisible = false;
-            this.guna2DataGridView4.Size = new System.Drawing.Size(733, 383);
+            this.guna2DataGridView4.Size = new System.Drawing.Size(991, 462);
             this.guna2DataGridView4.TabIndex = 68;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView4.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView4.ThemeStyle.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.guna2DataGridView4.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView4.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.guna2DataGridView4.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -101,7 +110,7 @@
             // 
             // Product
             // 
-            this.Product.Location = new System.Drawing.Point(334, 87);
+            this.Product.Location = new System.Drawing.Point(263, 161);
             this.Product.Name = "Product";
             this.Product.Size = new System.Drawing.Size(100, 20);
             this.Product.TabIndex = 55;
@@ -109,7 +118,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(844, 466);
+            this.button2.Location = new System.Drawing.Point(880, 200);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 67;
@@ -119,7 +128,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(466, 206);
+            this.button1.Location = new System.Drawing.Point(880, 171);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 66;
@@ -129,7 +138,7 @@
             // 
             // Category
             // 
-            this.Category.Location = new System.Drawing.Point(289, 174);
+            this.Category.Location = new System.Drawing.Point(263, 248);
             this.Category.Name = "Category";
             this.Category.Size = new System.Drawing.Size(100, 20);
             this.Category.TabIndex = 65;
@@ -137,7 +146,7 @@
             // 
             // Qt
             // 
-            this.Qt.Location = new System.Drawing.Point(289, 217);
+            this.Qt.Location = new System.Drawing.Point(665, 157);
             this.Qt.Name = "Qt";
             this.Qt.Size = new System.Drawing.Size(100, 20);
             this.Qt.TabIndex = 64;
@@ -145,7 +154,7 @@
             // 
             // NOPT
             // 
-            this.NOPT.Location = new System.Drawing.Point(289, 127);
+            this.NOPT.Location = new System.Drawing.Point(263, 201);
             this.NOPT.Name = "NOPT";
             this.NOPT.Size = new System.Drawing.Size(100, 20);
             this.NOPT.TabIndex = 63;
@@ -153,7 +162,7 @@
             // 
             // DT
             // 
-            this.DT.Location = new System.Drawing.Point(289, 258);
+            this.DT.Location = new System.Drawing.Point(665, 198);
             this.DT.Name = "DT";
             this.DT.Size = new System.Drawing.Size(100, 20);
             this.DT.TabIndex = 62;
@@ -162,68 +171,152 @@
             // ProductID
             // 
             this.ProductID.AutoSize = true;
-            this.ProductID.Location = new System.Drawing.Point(193, 81);
+            this.ProductID.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductID.Location = new System.Drawing.Point(63, 157);
             this.ProductID.Name = "ProductID";
-            this.ProductID.Size = new System.Drawing.Size(58, 13);
+            this.ProductID.Size = new System.Drawing.Size(100, 28);
             this.ProductID.TabIndex = 61;
-            this.ProductID.Text = "Product ID";
+            this.ProductID.Text = "Product ID :";
             this.ProductID.Click += new System.EventHandler(this.ProductID_Click);
             // 
             // Date
             // 
             this.Date.AutoSize = true;
-            this.Date.Location = new System.Drawing.Point(239, 261);
+            this.Date.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Date.Location = new System.Drawing.Point(465, 203);
             this.Date.Name = "Date";
-            this.Date.Size = new System.Drawing.Size(30, 13);
+            this.Date.Size = new System.Drawing.Size(57, 28);
             this.Date.TabIndex = 60;
-            this.Date.Text = "Date";
+            this.Date.Text = "Date :";
             this.Date.Click += new System.EventHandler(this.Date_Click);
             // 
             // Cate
             // 
             this.Cate.AutoSize = true;
-            this.Cate.Location = new System.Drawing.Point(202, 177);
+            this.Cate.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cate.Location = new System.Drawing.Point(63, 253);
             this.Cate.Name = "Cate";
-            this.Cate.Size = new System.Drawing.Size(49, 13);
+            this.Cate.Size = new System.Drawing.Size(94, 28);
             this.Cate.TabIndex = 59;
-            this.Cate.Text = "Category";
+            this.Cate.Text = "Category :";
             this.Cate.Click += new System.EventHandler(this.Cate_Click);
             // 
             // Quantity
             // 
             this.Quantity.AutoSize = true;
-            this.Quantity.Location = new System.Drawing.Point(221, 224);
+            this.Quantity.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Quantity.Location = new System.Drawing.Point(465, 166);
             this.Quantity.Name = "Quantity";
-            this.Quantity.Size = new System.Drawing.Size(48, 13);
+            this.Quantity.Size = new System.Drawing.Size(92, 28);
             this.Quantity.TabIndex = 58;
-            this.Quantity.Text = "Quantitly";
+            this.Quantity.Text = "Quantitly :";
             this.Quantity.Click += new System.EventHandler(this.Quantity_Click);
             // 
             // NOP
             // 
             this.NOP.AutoSize = true;
-            this.NOP.Location = new System.Drawing.Point(182, 130);
+            this.NOP.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NOP.Location = new System.Drawing.Point(63, 206);
             this.NOP.Name = "NOP";
-            this.NOP.Size = new System.Drawing.Size(87, 13);
+            this.NOP.Size = new System.Drawing.Size(152, 28);
             this.NOP.TabIndex = 57;
-            this.NOP.Text = "Name of Product";
+            this.NOP.Text = "Name of Product :";
             this.NOP.Click += new System.EventHandler(this.NOP_Click);
             // 
-            // label1
+            // guna2CustomGradientPanel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(446, 265);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 13);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "Inventory Management";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label10);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.LightCyan;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 65);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Quality = 50;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 20;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Enabled = true;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 6, 6);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(988, 52);
+            this.guna2CustomGradientPanel1.TabIndex = 83;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(61, 9);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(119, 37);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Inventory";
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Animated = true;
+            this.guna2TextBox1.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.guna2TextBox1.BorderRadius = 4;
+            this.guna2TextBox1.BorderThickness = 2;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Poppins Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.DarkOrange;
+            this.guna2TextBox1.Location = new System.Drawing.Point(646, 9);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2TextBox1.PlaceholderText = "Type here to search anything.\r\n\r\n";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(358, 34);
+            this.guna2TextBox1.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.guna2TextBox1.TabIndex = 86;
+            // 
+            // guna2PictureBox10
+            // 
+            this.guna2PictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox10.Image = global::DogCareFormApp.Properties.Resources.search;
+            this.guna2PictureBox10.ImageRotate = 0F;
+            this.guna2PictureBox10.Location = new System.Drawing.Point(633, 13);
+            this.guna2PictureBox10.Name = "guna2PictureBox10";
+            this.guna2PictureBox10.ShadowDecoration.BorderRadius = 3;
+            this.guna2PictureBox10.ShadowDecoration.Depth = 1;
+            this.guna2PictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2PictureBox10.Size = new System.Drawing.Size(17, 25);
+            this.guna2PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox10.TabIndex = 87;
+            this.guna2PictureBox10.TabStop = false;
+            this.guna2PictureBox10.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::DogCareFormApp.Properties.Resources.inventory_alt;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(26, 15);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 22);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 19;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // Inventoryr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.guna2PictureBox10);
+            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.guna2DataGridView4);
             this.Controls.Add(this.Product);
             this.Controls.Add(this.button2);
@@ -237,10 +330,13 @@
             this.Controls.Add(this.Cate);
             this.Controls.Add(this.Quantity);
             this.Controls.Add(this.NOP);
-            this.Controls.Add(this.label1);
             this.Name = "Inventoryr";
             this.Size = new System.Drawing.Size(1024, 778);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).EndInit();
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,6 +357,10 @@
         private System.Windows.Forms.Label Cate;
         private System.Windows.Forms.Label Quantity;
         private System.Windows.Forms.Label NOP;
-        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

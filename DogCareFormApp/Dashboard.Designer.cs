@@ -635,7 +635,6 @@
             this.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.MaximizeBox = false;
             this.Name = "Dashboard";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -20,6 +20,7 @@ namespace DogCareFormApp
         public Dashboard()
         {
             InitializeComponent();
+            this.Text = "Paw-Pal Dog Care Center";
         }
 
         private void guna2VProgressBar1_ValueChanged(object sender, EventArgs e)

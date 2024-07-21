@@ -63,5 +63,36 @@ namespace DogCareFormApp
                 }
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            string label1 = textBox1.Text;
+            string label2 = textBox2.Text;
+            string label3 = textBox3.Text;
+            string label4 = textBox4.Text;
+            string label5 = textBox5.Text;
+            string label6 = textBox5.Text;
+
+            if (label1 == "" || label2 == "" || label3 == "" || label4 == "" || label5 == "" || label6 == "")
+            {
+                MessageBox.Show("Please fill all the fields");
+                return;
+            }
+            string Query = $"INSERT INTO [Table] (petID, name, mobile, service, date, total) VALUES ('{label1}','{label2}','{label3}','{label4}','{label5}','{label6}')";
+            SqlCommand cmd = new SqlCommand(Query, con1);
+            {
+                try { con1.Open(); cmd.ExecuteNonQuery(); MessageBox.Show("Saved"); }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
+                finally
+                {
+                    con1.Close();
+                }
+            }
+        }
     }
 }

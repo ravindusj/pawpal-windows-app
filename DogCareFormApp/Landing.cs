@@ -18,6 +18,8 @@ namespace DogCareFormApp
         public Landing()
         {
             InitializeComponent();
+            this.Text = "Login";
+
         }
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)

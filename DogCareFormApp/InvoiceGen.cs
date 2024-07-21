@@ -69,7 +69,7 @@ namespace DogCareFormApp
         {
             try
             {
-                // Create an Invoice object with the data from the form
+                
                 Invoice invoice = new Invoice
                 {
                     PetID = txtPetID.Text,
@@ -79,7 +79,7 @@ namespace DogCareFormApp
                     TreatmentCosts = new List<decimal>()
                 };
 
-                // Add treatments and costs from the list boxes
+                
                 foreach (var item in lstTreatments.Items)
                 {
                     invoice.AdditionalTreatments.Add(item.ToString());
@@ -93,12 +93,12 @@ namespace DogCareFormApp
                     }
                 }
 
-                // Generate PDF invoice
+              
                 invoice.GeneratePdfInvoice();
             }
             catch (Exception ex)
             {
-                // Show error message if something goes wrong
+              
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -146,6 +146,43 @@ namespace DogCareFormApp
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dtpCheckIn_ValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lstTreatments_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Invoice invoice = new Invoice
+            {
+                PetID = txtPetID.Text,
+                CheckInDate = dtpCheckIn.Value,
+                CheckOutDate = dtpCheckOut.Value,
+                AdditionalTreatments = new List<string>(),
+                TreatmentCosts = new List<decimal>()
+            };
+
+            foreach (var item in lstTreatments.Items)
+            {
+                invoice.AdditionalTreatments.Add(item.ToString());
+            }
+
+            foreach (var item in lstTreatmentCosts.Items)
+            {
+                if (decimal.TryParse(item.ToString(), out decimal cost))
+                {
+                    invoice.TreatmentCosts.Add(cost);
+                }
+            }
+
+            invoice.GeneratePdfInvoice();
         }
     }
 }

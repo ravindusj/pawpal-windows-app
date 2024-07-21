@@ -221,10 +221,10 @@
             // creditLbl
             // 
             this.creditLbl.AutoSize = true;
-            this.creditLbl.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creditLbl.Location = new System.Drawing.Point(644, 746);
+            this.creditLbl.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.creditLbl.Location = new System.Drawing.Point(684, 747);
             this.creditLbl.Name = "creditLbl";
-            this.creditLbl.Size = new System.Drawing.Size(374, 28);
+            this.creditLbl.Size = new System.Drawing.Size(330, 25);
             this.creditLbl.TabIndex = 31;
             this.creditLbl.Text = "© 2024 Group X C# Project. All rights reserved.";
             // 

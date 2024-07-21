@@ -9,6 +9,7 @@ namespace DogCareFormApp
         public InvoiceGen()
         {
             InitializeComponent();
+            this.Text = "Print Invoice";
         }
 
         private void btnGenerateInvoice_Click(object sender, EventArgs e)
@@ -183,6 +184,11 @@ namespace DogCareFormApp
             }
 
             invoice.GeneratePdfInvoice();
+        }
+
+        private void InvoiceGen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

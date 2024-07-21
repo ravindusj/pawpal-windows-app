@@ -285,6 +285,11 @@
     <Compile Include="BookingDash.Designer.cs">
       <DependentUpon>BookingDash.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookingDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -408,6 +413,17 @@
     <EmbeddedResource Include="UserControlDOGlist.resx">
       <DependentUpon>UserControlDOGlist.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BookingDatabaseDataSet.xsc">
+      <DependentUpon>BookingDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookingDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookingDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookingDatabaseDataSet.xss">
+      <DependentUpon>BookingDatabaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -486,6 +502,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Dog.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\dog %286%29.png" />
     <None Include="Resources\play-with-pet %284%29.png" />
     <None Include="Resources\plus-small.png" />
     <None Include="Resources\light-emergency-on.png" />

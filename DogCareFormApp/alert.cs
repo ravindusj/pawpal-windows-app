@@ -20,6 +20,7 @@ namespace DogCareFormApp
         public alert()
         {
             InitializeComponent();
+            this.Text = "Add Alert";
         }
 
         private void label1_Click(object sender, EventArgs e)

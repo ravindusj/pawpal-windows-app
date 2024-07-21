@@ -69,10 +69,11 @@
             this.OwnerEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.OwnerEmail.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.OwnerEmail.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.OwnerEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.OwnerEmail.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.OwnerEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerEmail.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OwnerEmail.Location = new System.Drawing.Point(175, 341);
+            this.OwnerEmail.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.OwnerEmail.Name = "OwnerEmail";
             this.OwnerEmail.PasswordChar = '\0';
             this.OwnerEmail.PlaceholderText = "";
@@ -103,10 +104,11 @@
             this.DogGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DogGender.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.DogGender.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.DogGender.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.DogGender.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.DogGender.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogGender.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.DogGender.Location = new System.Drawing.Point(557, 290);
+            this.DogGender.Location = new System.Drawing.Point(582, 290);
+            this.DogGender.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.DogGender.Name = "DogGender";
             this.DogGender.PasswordChar = '\0';
             this.DogGender.PlaceholderText = "";
@@ -127,10 +129,11 @@
             this.DogBreed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DogBreed.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.DogBreed.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.DogBreed.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.DogBreed.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.DogBreed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogBreed.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.DogBreed.Location = new System.Drawing.Point(557, 190);
+            this.DogBreed.Location = new System.Drawing.Point(582, 190);
+            this.DogBreed.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.DogBreed.Name = "DogBreed";
             this.DogBreed.PasswordChar = '\0';
             this.DogBreed.PlaceholderText = "";
@@ -151,10 +154,12 @@
             this.DogAge.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DogAge.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.DogAge.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.DogAge.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.DogAge.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.DogAge.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogAge.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.DogAge.Location = new System.Drawing.Point(557, 241);
+            this.DogAge.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.DogAge.Location = new System.Drawing.Point(582, 241);
+            this.DogAge.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.DogAge.Name = "DogAge";
             this.DogAge.PasswordChar = '\0';
             this.DogAge.PlaceholderText = "";
@@ -179,7 +184,7 @@
             this.DogName.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.DogName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DogName.HoverState.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.DogName.Location = new System.Drawing.Point(557, 141);
+            this.DogName.Location = new System.Drawing.Point(582, 141);
             this.DogName.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.DogName.Name = "DogName";
             this.DogName.PasswordChar = '\0';
@@ -192,7 +197,7 @@
             // 
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel10.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(426, 189);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(451, 189);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(99, 25);
             this.guna2HtmlLabel10.TabIndex = 73;
@@ -202,7 +207,7 @@
             // 
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(426, 238);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(451, 238);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(30, 25);
             this.guna2HtmlLabel9.TabIndex = 72;
@@ -212,7 +217,7 @@
             // 
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(426, 287);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(451, 287);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(53, 25);
             this.guna2HtmlLabel8.TabIndex = 71;
@@ -222,7 +227,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(426, 140);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(451, 140);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(78, 25);
             this.guna2HtmlLabel1.TabIndex = 70;
@@ -232,7 +237,7 @@
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(406, 87);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(431, 87);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(170, 36);
             this.guna2HtmlLabel7.TabIndex = 69;
@@ -262,10 +267,11 @@
             this.OwnerAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.OwnerAddress.FocusedState.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.OwnerAddress.FocusedState.ForeColor = System.Drawing.Color.Black;
-            this.OwnerAddress.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.OwnerAddress.Font = new System.Drawing.Font("Poppins Light", 9.75F);
             this.OwnerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.OwnerAddress.HoverState.FillColor = System.Drawing.SystemColors.ActiveCaption;
             this.OwnerAddress.Location = new System.Drawing.Point(175, 291);
+            this.OwnerAddress.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.OwnerAddress.Name = "OwnerAddress";
             this.OwnerAddress.PasswordChar = '\0';
             this.OwnerAddress.PlaceholderText = "";
@@ -440,16 +446,17 @@
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(829, 146);
+            this.guna2Button1.Location = new System.Drawing.Point(840, 316);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.BorderRadius = 10;
             this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.IndianRed;
             this.guna2Button1.Size = new System.Drawing.Size(112, 43);
             this.guna2Button1.TabIndex = 83;
             this.guna2Button1.Text = "Register";
+            this.guna2Button1.TextOffset = new System.Drawing.Point(-1, 1);
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Regsiter

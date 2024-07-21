@@ -21,6 +21,7 @@ namespace DogCareFormApp
         public Booking()
         {
             InitializeComponent();
+            this.Text = "Booking";
         }
 
         private void label1_Click(object sender, EventArgs e)

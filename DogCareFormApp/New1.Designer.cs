@@ -109,6 +109,7 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 6, 6);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(990, 52);
             this.guna2CustomGradientPanel1.TabIndex = 27;
+            this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
             // 
             // guna2PictureBox1
             // 

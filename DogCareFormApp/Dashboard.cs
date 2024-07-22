@@ -13,8 +13,8 @@ namespace DogCareFormApp
 {
     public partial class Dashboard : Form
     {
-        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\source\pawpal-formApp\DogCareFormApp\alertdata.mdf;Integrated Security=True");
-        SqlConnection con2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\alertdata.mdf;Integrated Security=True");
+        SqlConnection con2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
 
 
         public Dashboard()

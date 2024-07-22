@@ -15,7 +15,7 @@ namespace DogCareFormApp
     public partial class BookingDash : UserControl
     {
 
-        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\BookingDatabase.mdf;Integrated Security=True");
 
         public BookingDash()
         {
@@ -43,7 +43,7 @@ namespace DogCareFormApp
                     SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT * FROM [Table]", con1);
                     DataTable dataTable = new DataTable();
                     sqlDa.Fill(dataTable);
-                    dataGridView1.DataSource = dataTable;
+                    guna2DataGridView1.DataSource = dataTable;
                 }
             }
             catch (Exception ex)
@@ -67,5 +67,6 @@ namespace DogCareFormApp
             InvoiceGen invoiceGen = new InvoiceGen();
             invoiceGen.Show();
         }
+
     }
 }

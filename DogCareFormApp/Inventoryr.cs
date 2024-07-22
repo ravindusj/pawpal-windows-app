@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Bibliography;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,7 @@ namespace DogCareFormApp
     public partial class Inventoryr : UserControl
 
     {
-        SqlConnection con2 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Desktop\pawpal-formApp\DogCareFormApp\Database1.mdf;Integrated Security=True");
+        SqlConnection con2 = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=C:\Users\ASUS\Documents\Pawpal-final\DogCareFormApp\Database1.mdf;Integrated Security = True");
         public Inventoryr()
         {
             InitializeComponent();

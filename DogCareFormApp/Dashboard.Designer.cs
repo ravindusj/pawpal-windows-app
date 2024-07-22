@@ -352,7 +352,7 @@
             this.guna2DataGridView1.ShowCellToolTips = false;
             this.guna2DataGridView1.ShowEditingIcon = false;
             this.guna2DataGridView1.ShowRowErrors = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(197, 340);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(199, 340);
             this.guna2DataGridView1.TabIndex = 0;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;

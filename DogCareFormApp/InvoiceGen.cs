@@ -50,7 +50,7 @@ namespace DogCareFormApp
 
         private void btnAddCost_Click(object sender, EventArgs e)
         {
-            string cost = Prompt.ShowDialog("Enter Cost:", "Add Cost");
+            string cost = Prompt.ShowDialog("Enter the Cost:", "Add Cost");
             if (decimal.TryParse(cost, out decimal result))
             {
                 lstTreatmentCosts.Items.Add(result.ToString("F2"));
